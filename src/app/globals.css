@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 4 4 4; /* #040404 black */
+    --foreground: 235 227 219; /* #ebe3db cream */
+    --card: 4 4 4;
+    --card-foreground: 235 227 219;
+    --popover: 4 4 4;
+    --popover-foreground: 235 227 219;
+    --primary: 245 67 53; /* #f54335 red */
+    --primary-foreground: 235 227 219;
+    --secondary: 235 227 219;
+    --secondary-foreground: 4 4 4;
+    --muted: 95 76 71;
+    --muted-foreground: 123 133 122;
+    --accent: 245 67 53;
+    --accent-foreground: 235 227 219;
+    --destructive: 245 67 53;
+    --destructive-foreground: 235 227 219;
+    --border: 95 76 71;
+    --input: 95 76 71;
+    --ring: 245 67 53;
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+}
+
+@layer components {
+  .text-climate-black {
+    color: #040404;
+  }
+
+  .text-climate-cream {
+    color: #ebe3db;
+  }
+
+  .text-climate-red {
+    color: #f54335;
+  }
+
+  .bg-climate-black {
+    background-color: #040404;
+  }
+
+  .bg-climate-cream {
+    background-color: #ebe3db;
+  }
+
+  .bg-climate-red {
+    background-color: #f54335;
+  }
+
+  .font-climate-bold {
+    font-weight: 900;
+    font-stretch: condensed;
+    letter-spacing: -0.02em;
+  }
+
+  .logo-color-match {
+    /* Adjust logo colors to match website color scheme */
+    filter: 
+      contrast(1.1) 
+      brightness(1.05) 
+      saturate(0.9)
+      hue-rotate(-5deg);
+  }
+
+  .logo-color-match:hover {
+    filter: 
+      contrast(1.15) 
+      brightness(1.1) 
+      saturate(0.95)
+      hue-rotate(-5deg);
+  }
+}
