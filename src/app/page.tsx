@@ -34,7 +34,7 @@ export default function HomePage() {
           {/* Description - left justified */}
           <div className="text-left max-w-4xl mx-auto mb-16">
             <p className="text-climate-cream text-xl md:text-2xl leading-relaxed mb-4">
-              <span className="text-climate-red font-bold">LIBERTYGUARD</span> is your comprehensive resistance companion,
+              <span className="text-climate-red font-bold">LIBERTY GUARD</span> is your comprehensive resistance companion,
               designed to keep you informed, organized, and safe while defending democratic rights.
             </p>
 
@@ -50,7 +50,7 @@ export default function HomePage() {
       <div className="bg-climate-red relative overflow-hidden py-16 md:py-24">
         <div className="relative z-10 max-w-8xl mx-auto px-6">
           <h2 className="font-climate-bold text-4xl md:text-8xl text-climate-cream text-center mb-8 md:mb-12">
-            GET LIBERTYGUARD
+            GET LIBERTY GUARD
           </h2>
 
           <div className="flex flex-col md:flex-row items-center justify-center gap-2 md:gap-4 px-8 md:px-16 lg:px-24">
@@ -305,7 +305,7 @@ export default function HomePage() {
       <div className="bg-climate-black py-12">
         <div className="max-w-6xl mx-auto px-6 text-center">
           <div className="mb-6">
-            <h3 className="text-climate-cream text-2xl font-bold mb-2">LIBERTYGUARD</h3>
+                <h3 className="text-climate-cream text-2xl font-bold mb-2">LIBERTY GUARD</h3>
             <p className="text-climate-cream text-sm opacity-60">Defend Democracy. Protect Rights.</p>
           </div>
           <div className="space-y-2 text-sm">
