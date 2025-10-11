@@ -4,16 +4,16 @@
 
 @layer base {
   :root {
-    --background: 4 4 4; /* #040404 black */
+    --background: 0 0 0; /* #000000 pure black to match logo */
     --foreground: 235 227 219; /* #ebe3db cream */
-    --card: 4 4 4;
+    --card: 0 0 0;
     --card-foreground: 235 227 219;
-    --popover: 4 4 4;
+    --popover: 0 0 0;
     --popover-foreground: 235 227 219;
     --primary: 245 67 53; /* #f54335 red */
     --primary-foreground: 235 227 219;
     --secondary: 235 227 219;
-    --secondary-foreground: 4 4 4;
+    --secondary-foreground: 0 0 0;
     --muted: 95 76 71;
     --muted-foreground: 123 133 122;
     --accent: 245 67 53;
@@ -39,7 +39,7 @@
 
 @layer components {
   .text-climate-black {
-    color: #040404;
+    color: #000000;
   }
 
   .text-climate-cream {
@@ -51,7 +51,7 @@
   }
 
   .bg-climate-black {
-    background-color: #040404;
+    background-color: #000000;
   }
 
   .bg-climate-cream {

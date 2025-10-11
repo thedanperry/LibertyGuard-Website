@@ -155,7 +155,7 @@ export default function HomePage() {
 
                 <p>
                   ⚡ Find local protests and organizing events from Indivisible chapters, Eventbrite, and community sources.
-                  Document police violence with encrypted media. Emergency beacon alerts your contacts instantly with location and evidence.
+                  Document civil rights violations with encrypted media. Emergency beacon alerts your contacts instantly with location and evidence.
                 </p>
               </div>
             </div>
