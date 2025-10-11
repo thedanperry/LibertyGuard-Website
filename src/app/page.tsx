@@ -34,12 +34,12 @@ export default function HomePage() {
           {/* Description - left justified */}
           <div className="text-left max-w-4xl mx-auto mb-16">
             <p className="text-climate-cream text-xl md:text-2xl leading-relaxed mb-4">
-              <span className="text-climate-red font-bold">LIBERTYGUARD</span> is your comprehensive anti-fascist resistance companion,
+              <span className="text-climate-red font-bold">LIBERTYGUARD</span> is your comprehensive resistance companion,
               designed to keep you informed, organized, and safe while defending democratic rights.
             </p>
 
             <p className="text-climate-cream text-xl md:text-2xl leading-relaxed">
-              Whether you're monitoring authoritarian threats, organizing protests, documenting police violence, or preparing for civil unrest,
+              Whether you're monitoring threats to democracy, organizing protests, documenting civil rights violations, or preparing for civil unrest,
               <span className="text-climate-red"> LibertyGuard provides the tools, knowledge, and real-time intelligence</span> you need to resist effectively and stay safe.
             </p>
           </div>
@@ -144,7 +144,7 @@ export default function HomePage() {
                 </p>
 
                 <p>
-                  ⚡ Real-time threat monitoring aggregates authoritarian activity, government overreach, military movements,
+                  ⚡ Real-time threat monitoring aggregates government overreach, military movements,
                   and civil unrest from multiple sources. When democracy is declining, you'll see exactly which rights are under attack.
                 </p>
 
@@ -179,7 +179,7 @@ export default function HomePage() {
                       </p>
 
                       <p>
-                        ⚡ Real-time threat monitoring aggregates authoritarian activity, government overreach, military movements,
+                        ⚡ Real-time threat monitoring aggregates government overreach, military movements,
                         and civil unrest from multiple sources. When democracy is declining, you'll see exactly which rights are under attack.
                       </p>
 
@@ -214,7 +214,7 @@ export default function HomePage() {
               </div>
               <div>
                 <h3 className="text-climate-red text-xl font-bold mb-2">🔥 THREAT INTELLIGENCE</h3>
-                <p className="text-climate-cream">Aggregated alerts from news sources, social media, and community reports. Intelligent filtering prioritizes domestic authoritarian threats with confidence scoring.</p>
+                <p className="text-climate-cream">Aggregated alerts from news sources, social media, and community reports. Intelligent filtering prioritizes domestic threats to democracy with confidence scoring.</p>
               </div>
               <div>
                 <h3 className="text-climate-red text-xl font-bold mb-2">🔥 PROTEST COORDINATION</h3>
@@ -240,7 +240,7 @@ export default function HomePage() {
               </div>
               <div>
                 <h3 className="text-climate-red text-xl font-bold mb-2">🔥 PRIVACY & SECURITY</h3>
-                <p className="text-climate-cream">Local-first architecture, AES-256 encryption, zero data selling, minimal collection. Designed for activists facing surveillance and repression.</p>
+                <p className="text-climate-cream">Local-first architecture, AES-256 encryption, zero data selling, minimal collection. Designed for activists facing surveillance and monitoring.</p>
               </div>
             </div>
           </div>
@@ -258,7 +258,7 @@ export default function HomePage() {
                 <WarningIcon variant="triangle" size={24} /> What makes LibertyGuard different from other activist apps?
               </h3>
               <p className="text-climate-black text-lg leading-relaxed">
-                LibertyGuard combines democracy health monitoring, real-time threat intelligence, protest coordination, encrypted documentation, and 35+ resistance guides into one comprehensive platform. Unlike basic alert apps, we provide complete awareness of authoritarian threats with both immediate intelligence and long-term organizing tools.
+                LibertyGuard combines democracy health monitoring, real-time threat intelligence, protest coordination, encrypted documentation, and 35+ resistance guides into one comprehensive platform. Unlike basic alert apps, we provide complete awareness of threats to democracy with both immediate intelligence and long-term organizing tools.
               </p>
             </div>
 
@@ -267,7 +267,7 @@ export default function HomePage() {
                 <WarningIcon variant="triangle" size={24} /> Who should use LibertyGuard?
               </h3>
               <p className="text-climate-black text-lg leading-relaxed">
-                Activists, organizers, protesters, journalists, legal observers, civil rights advocates, and anyone defending democracy against authoritarianism. Whether you're monitoring threats, organizing actions, documenting state violence, or <span className="text-climate-red font-bold">resisting fascism</span>, LibertyGuard provides the tools you need to stay safe and effective.
+                Activists, organizers, protesters, journalists, legal observers, civil rights advocates, and anyone defending democracy. Whether you're monitoring threats, organizing actions, documenting civil rights violations, or protecting democratic values, LibertyGuard provides the tools you need to stay safe and effective.
               </p>
             </div>
 
@@ -294,7 +294,7 @@ export default function HomePage() {
                 <WarningIcon variant="triangle" size={24} /> How does the democracy health scoring work?
               </h3>
               <p className="text-climate-black text-lg leading-relaxed">
-                The democracy dashboard analyzes real-time threat data across multiple categories using AI-powered classification and confidence scoring. It tracks authoritarian activity, government overreach, military movements, civil rights violations, and press freedom to calculate overall democracy health and identify declining areas requiring action.
+                The democracy dashboard analyzes real-time threat data across multiple categories using AI-powered classification and confidence scoring. It tracks government overreach, military movements, civil rights violations, and press freedom to calculate overall democracy health and identify declining areas requiring action.
               </p>
             </div>
           </div>
@@ -306,7 +306,7 @@ export default function HomePage() {
         <div className="max-w-6xl mx-auto px-6 text-center">
           <div className="mb-6">
             <h3 className="text-climate-cream text-2xl font-bold mb-2">LIBERTYGUARD</h3>
-            <p className="text-climate-cream text-sm opacity-60">Defend Democracy. Resist Fascism.</p>
+            <p className="text-climate-cream text-sm opacity-60">Defend Democracy. Protect Rights.</p>
           </div>
           <div className="space-y-2 text-sm">
             <div className="flex justify-center space-x-6">
