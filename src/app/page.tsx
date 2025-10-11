@@ -163,38 +163,32 @@ export default function HomePage() {
 
           {/* Desktop: Original centered layout */}
           <div className="hidden md:block">
-            <div className="relative">
-              <div className="w-[600px] h-[600px] mx-auto relative">
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="text-center max-w-4xl px-4">
-                    <h2 className="font-climate-bold text-8xl text-climate-black leading-tight mb-12">
-                      MONITOR DEMOCRACY HEALTH
-                    </h2>
+            <div className="text-center max-w-4xl mx-auto px-6 py-8">
+              <h2 className="font-climate-bold text-6xl md:text-8xl text-climate-black leading-tight mb-12">
+                MONITOR DEMOCRACY HEALTH
+              </h2>
 
-                    {/* More engaging copy about app features - centered block with left-aligned text and lightning bolt bullets */}
-                    <div className="text-climate-black text-lg leading-relaxed space-y-4 text-left max-w-3xl mx-auto">
-                      <p>
-                        ⚡ Your democracy health dashboard continuously tracks threats to democratic institutions in real-time.
-                        Get instant scores for free speech, electoral integrity, civil rights, press freedom, and judicial independence.
-                      </p>
+              {/* More engaging copy about app features - centered block with left-aligned text and lightning bolt bullets */}
+              <div className="text-climate-black text-lg leading-relaxed space-y-4 text-left max-w-3xl mx-auto">
+                <p>
+                  ⚡ Your democracy health dashboard continuously tracks threats to democratic institutions in real-time.
+                  Get instant scores for free speech, electoral integrity, civil rights, press freedom, and judicial independence.
+                </p>
 
-                      <p>
-                        ⚡ Real-time threat monitoring aggregates government overreach, military movements,
-                        and civil unrest from multiple sources. When democracy is declining, you'll see exactly which rights are under attack.
-                      </p>
+                <p>
+                  ⚡ Real-time threat monitoring aggregates government overreach, military movements,
+                  and civil unrest from multiple sources. When democracy is declining, you'll see exactly which rights are under attack.
+                </p>
 
-                      <p>
-                        ⚡ Access 35+ resistance guides covering protest protocols, improvised medicine, advanced trauma care,
-                        legal rights, and community organizing. All content works offline when authorities shut down networks.
-                      </p>
+                <p>
+                  ⚡ Access 35+ resistance guides covering protest protocols, improvised medicine, advanced trauma care,
+                  legal rights, and community organizing. All content works offline when authorities shut down networks.
+                </p>
 
-                      <p>
-                        ⚡ Find local protests and organizing events from Indivisible chapters, Eventbrite, and community sources.
-                        Document police violence with encrypted media. Emergency beacon alerts your contacts instantly with location and evidence.
-                      </p>
-                    </div>
-                  </div>
-                </div>
+                <p>
+                  ⚡ Find local protests and organizing events from Indivisible chapters, Eventbrite, and community sources.
+                  Document civil rights violations with encrypted media. Emergency beacon alerts your contacts instantly with location and evidence.
+                </p>
               </div>
             </div>
           </div>
