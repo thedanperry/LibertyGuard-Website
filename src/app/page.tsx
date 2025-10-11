@@ -13,7 +13,7 @@ export default function HomePage() {
           {/* App Label - bigger to match GET WATCHTOWER */}
           <div className="mb-8">
             <p className="font-climate-bold text-5xl md:text-8xl text-climate-cream tracking-wide leading-tight whitespace-pre-line">
-              {`LIBERTYGUARD\nRESISTANCE`}
+              {`JOIN THE\nRESISTANCE`}
             </p>
           </div>
 
@@ -30,12 +30,6 @@ export default function HomePage() {
             </div>
           </div>
 
-          {/* Tagline - smaller to fit on two lines */}
-          <div className="relative z-10 text-center mb-8">
-            <p className="font-climate-bold text-2xl md:text-6xl text-climate-cream leading-tight whitespace-pre-line">
-              {`DEFEND DEMOCRACY\nRESIST FASCISM`}
-            </p>
-          </div>
 
           {/* Description - left justified */}
           <div className="text-left max-w-4xl mx-auto mb-16">
