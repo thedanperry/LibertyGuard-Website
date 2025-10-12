@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "LibertyGuard Survival Pro - Emergency Preparedness App",
-  description: "Your comprehensive emergency preparedness companion. Real-time alerts, survival guides, emergency scanner, and preparedness dashboard. Stay ready for any crisis.",
+  title: "LibertyGuard - Democracy Protection & Resistance App",
+  description: "Your comprehensive democracy protection and resistance companion. Real-time threat monitoring, protest coordination, encrypted documentation, and resistance guides. Defend democracy, protect rights.",
   icons: {
     icon: '/libertyguard-logo.png',
     shortcut: '/libertyguard-logo.png',

@@ -12,7 +12,7 @@ export default function TermsPage() {
           <section>
             <h2 className="text-2xl font-bold text-climate-red mb-4">Acceptance of Terms</h2>
             <p className="text-lg leading-relaxed">
-              By downloading, installing, or using LibertyGuard Survival Pro ("the App"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, do not use the App.
+              By downloading, installing, or using LibertyGuard ("the App"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, do not use the App.
             </p>
           </section>
 
@@ -91,7 +91,7 @@ export default function TermsPage() {
           <section>
             <h2 className="text-2xl font-bold text-climate-red mb-4">Intellectual Property</h2>
             <ul className="list-disc list-inside space-y-2 ml-4">
-              <li><strong>App Content:</strong> All content, features, and functionality are owned by LibertyGuard Survival Pro</li>
+              <li><strong>App Content:</strong> All content, features, and functionality are owned by LibertyGuard</li>
               <li><strong>User Content:</strong> You retain ownership of content you create using the App</li>
               <li><strong>License:</strong> We grant you a limited, non-exclusive license to use the App</li>
               <li><strong>Restrictions:</strong> You may not copy, modify, or distribute the App without permission</li>
@@ -170,8 +170,8 @@ export default function TermsPage() {
             <h2 className="text-2xl font-bold text-climate-red mb-4">Contact Information</h2>
             <p className="text-lg leading-relaxed">
               For questions about these Terms, contact us at{' '}
-              <a href="mailto:support@libertyguard.app" className="text-climate-red hover:underline font-bold">
-                support@libertyguard.app
+              <a href="mailto:support@libertyguardsurvivalpro.com" className="text-climate-red hover:underline font-bold">
+                support@libertyguardsurvivalpro.com
               </a>
             </p>
             <p className="text-sm text-climate-cream opacity-75 mt-2">
