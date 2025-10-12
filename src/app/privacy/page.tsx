@@ -140,7 +140,7 @@ export default function PrivacyPage() {
               If you have questions about this Privacy Policy or our data practices, contact us at:
             </p>
             <p className="text-lg mt-4">
-              <strong>Email:</strong> <a href="mailto:privacy@libertyguard.app" className="text-climate-red hover:underline">privacy@libertyguard.app</a>
+              <strong>Email:</strong> <a href="mailto:support@libertyguard.app" className="text-climate-red hover:underline">support@libertyguard.app</a>
             </p>
           </section>
 
@@ -161,7 +161,7 @@ export default function PrivacyPage() {
 
           <div className="mt-16 pt-8 border-t border-climate-red text-center">
             <p className="text-sm opacity-60">
-              This Privacy Policy is effective as of January 11, 2025 and applies to all users of the LibertyGuard application.
+              This Privacy Policy is effective as of October 11, 2025 and applies to all users of the LibertyGuard application.
             </p>
           </div>
         </div>
