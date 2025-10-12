@@ -10,7 +10,7 @@ export default function PrivacyPage() {
 
         <div className="space-y-8 text-climate-cream">
           <div className="text-center mb-8">
-            <p className="text-sm opacity-60">Effective Date: January 11, 2025</p>
+            <p className="text-sm opacity-60">Effective Date: October 11, 2025</p>
           </div>
 
           <section>

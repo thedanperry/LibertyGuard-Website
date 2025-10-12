@@ -170,12 +170,12 @@ export default function TermsPage() {
             <h2 className="text-2xl font-bold text-climate-red mb-4">Contact Information</h2>
             <p className="text-lg leading-relaxed">
               For questions about these Terms, contact us at{' '}
-              <a href="mailto:support@libertyguardsurvivalpro.com" className="text-climate-red hover:underline font-bold">
-                support@libertyguardsurvivalpro.com
+              <a href="mailto:support@libertyguard.app" className="text-climate-red hover:underline font-bold">
+                support@libertyguard.app
               </a>
             </p>
             <p className="text-sm text-climate-cream opacity-75 mt-2">
-              <strong>Last Updated:</strong> December 2024
+              <strong>Last Updated:</strong> October 2025
             </p>
           </section>
         </div>
