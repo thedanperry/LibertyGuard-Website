@@ -109,7 +109,7 @@ export default function HomePage() {
                     alt="Protest events and community organizing"
                     className="w-full h-auto rounded-xl shadow-2xl transition-transform duration-200 md:hover:scale-105"
                   />
-                  <p className="text-climate-cream text-sm mt-3 font-bold">Events & Organizing</p>
+                  <p className="text-climate-cream text-sm mt-3 font-bold">Threat Tracker</p>
                 </div>
 
                 <div className="text-center">
@@ -118,7 +118,7 @@ export default function HomePage() {
                     alt="Resistance survival guides and protest protocols"
                     className="w-full h-auto rounded-xl shadow-2xl transition-transform duration-200 md:hover:scale-105"
                   />
-                  <p className="text-climate-cream text-sm mt-3 font-bold">Resistance Guides</p>
+                  <p className="text-climate-cream text-sm mt-3 font-bold">Events & Organizing</p>
                 </div>
               </div>
             </div>
