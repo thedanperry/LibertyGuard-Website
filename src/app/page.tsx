@@ -69,7 +69,7 @@ export default function HomePage() {
 
               <div className="space-y-4">
                 <a 
-                  href="https://apps.apple.com/us/app/libertyguard-survival-pro/id6751219165" 
+                  href="https://apps.apple.com/search?term=LibertyGuard" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="inline-block bg-climate-black text-climate-cream px-8 md:px-12 py-3 md:py-4 rounded-full text-lg md:text-xl font-bold hover:bg-gray-900 transition-colors mb-4"
