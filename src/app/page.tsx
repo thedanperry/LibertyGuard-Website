@@ -278,8 +278,11 @@ export default function HomePage() {
               <h3 className="font-bold text-2xl text-climate-black mb-4 flex items-center gap-3">
                 <WarningIcon variant="triangle" size={24} /> What happens if authorities shut down the internet?
               </h3>
-              <p className="text-climate-black text-lg leading-relaxed">
+              <p className="text-climate-black text-lg leading-relaxed mb-4">
                 All 35+ resistance guides, protest protocols, legal rights information, and survival content is cached locally on your device. Even when networks are shut down or heavily monitored, your critical resistance information remains fully accessible offline.
+              </p>
+              <p className="text-climate-black text-lg leading-relaxed">
+                <strong>Additionally, LibertyGuard includes mesh networking technology</strong> that lets you communicate with nearby activists without internet or cellular service. Using Bluetooth and WiFi Direct, you can relay messages, alerts, and encrypted evidence through a peer-to-peer network—even during complete internet shutdowns. <Link href="/mesh-networking" className="text-climate-red font-bold hover:underline">Learn more about mesh networking →</Link>
               </p>
             </div>
 
@@ -306,6 +309,7 @@ export default function HomePage() {
             <div className="flex justify-center space-x-6">
               <Link href="/privacy" className="text-climate-red hover:text-climate-cream transition-colors">Privacy Policy</Link>
               <Link href="/terms" className="text-climate-red hover:text-climate-cream transition-colors">Terms of Service</Link>
+              <Link href="/mesh-networking" className="text-climate-red hover:text-climate-cream transition-colors">Mesh Networking Guide</Link>
             </div>
             <p className="text-climate-cream text-sm">
               Support: <a href="mailto:support@libertyguard.app" className="text-climate-red hover:underline font-bold">support@libertyguard.app</a>
