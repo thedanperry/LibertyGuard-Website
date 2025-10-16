@@ -9,10 +9,6 @@ export default function MeshNetworkingPage() {
         </h1>
 
         <div className="space-y-8 text-climate-cream">
-          <div className="text-center mb-8">
-            <p className="text-sm opacity-60">Last Updated: January 16, 2025</p>
-          </div>
-
           <section>
             <h2 className="text-2xl font-bold text-climate-red mb-4">What is Mesh Networking?</h2>
             <p className="text-lg leading-relaxed mb-4">
