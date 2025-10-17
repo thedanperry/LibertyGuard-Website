@@ -60,7 +60,8 @@ export default function HomePage() {
                 <p>• Democracy health monitoring</p>
                 <p>• Real-time threat alerts</p>
                 <p>• Protest event coordination</p>
-                <p>• Encrypted media documentation</p>
+                <p>• Live community messaging</p>
+                <p>• Protest message generator</p>
                 <p>• Emergency beacon system</p>
                 <p>• 35+ resistance guides</p>
                 <p>• Community organizing tools</p>
@@ -155,7 +156,7 @@ export default function HomePage() {
 
                 <p>
                   ⚡ Find local protests and organizing events from Indivisible chapters, Eventbrite, and community sources.
-                  Document civil rights violations with encrypted media. Emergency beacon alerts your contacts instantly with location and evidence.
+                  Generate powerful protest messages and chants. Emergency beacon alerts your contacts instantly with your location.
                 </p>
               </div>
             </div>
@@ -187,7 +188,7 @@ export default function HomePage() {
 
                 <p>
                   ⚡ Find local protests and organizing events from Indivisible chapters, Eventbrite, and community sources.
-                  Document civil rights violations with encrypted media. Emergency beacon alerts your contacts instantly with location and evidence.
+                  Generate powerful protest messages and chants. Emergency beacon alerts your contacts instantly with your location.
                 </p>
               </div>
             </div>
@@ -215,8 +216,8 @@ export default function HomePage() {
                 <p className="text-climate-cream">Find local protests, marches, and organizing events. Location-based search from Indivisible chapters, Eventbrite, and activist communities.</p>
               </div>
               <div>
-                <h3 className="text-climate-red text-xl font-bold mb-2">🔥 ENCRYPTED DOCUMENTATION</h3>
-                <p className="text-climate-cream">Document police violence with AES-256 encrypted photos and videos. Chain of custody metadata for legal admissibility. Your evidence stays protected even if device is seized.</p>
+                <h3 className="text-climate-red text-xl font-bold mb-2">🔥 LIVE MESSAGING</h3>
+                <p className="text-climate-cream">Secure, real-time community messaging with smart moderation. Connect with fellow activists, share updates, and coordinate actions. All messages are encrypted and stored locally for offline access.</p>
               </div>
             </div>
             <div className="space-y-6">
@@ -225,8 +226,12 @@ export default function HomePage() {
                 <p className="text-climate-cream">35+ guides including Protest Protocols, US Constitution, Improvised Medicine, Advanced Trauma Care, Legal Rights, and Community Organizing. All offline-accessible.</p>
               </div>
               <div>
+                <h3 className="text-climate-red text-xl font-bold mb-2">🔥 PROTEST MESSAGE GENERATOR</h3>
+                <p className="text-climate-cream">Generate powerful, witty, and impactful protest signs and chants. Random generation or by cause (climate, justice, democracy, etc.). 100+ researched messages with anti-authoritarian, anti-plutocracy, and pro-democracy themes.</p>
+              </div>
+              <div>
                 <h3 className="text-climate-red text-xl font-bold mb-2">🔥 EMERGENCY BEACON</h3>
-                <p className="text-climate-cream">One-tap emergency alert sends location, map links, and recent photos/videos to pre-selected contacts. Automatic GPS coordinates and customizable messages.</p>
+                <p className="text-climate-cream">One-tap emergency alert sends location and map links to pre-selected contacts. Automatic GPS coordinates and customizable messages for instant help when you need it most.</p>
               </div>
               <div>
                 <h3 className="text-climate-red text-xl font-bold mb-2">🔥 PROTECTION CHECKLIST</h3>
@@ -252,7 +257,7 @@ export default function HomePage() {
                 <WarningIcon variant="triangle" size={24} /> What makes LibertyGuard different from other activist apps?
               </h3>
               <p className="text-climate-black text-lg leading-relaxed">
-                LibertyGuard combines democracy health monitoring, real-time threat intelligence, protest coordination, encrypted documentation, and 35+ resistance guides into one comprehensive platform. Unlike basic alert apps, we provide complete awareness of threats to democracy with both immediate intelligence and long-term organizing tools.
+                LibertyGuard combines democracy health monitoring, real-time threat intelligence, protest coordination, live messaging, protest message generation, and 35+ resistance guides into one comprehensive platform. Unlike basic alert apps, we provide complete awareness of threats to democracy with both immediate intelligence and long-term organizing tools.
               </p>
             </div>
 
@@ -261,16 +266,16 @@ export default function HomePage() {
                 <WarningIcon variant="triangle" size={24} /> Who should use LibertyGuard?
               </h3>
               <p className="text-climate-black text-lg leading-relaxed">
-                Activists, organizers, protesters, journalists, legal observers, civil rights advocates, and anyone defending democracy. Whether you're monitoring threats, organizing actions, documenting civil rights violations, or protecting democratic values, LibertyGuard provides the tools you need to stay safe and effective.
+                Activists, organizers, protesters, journalists, legal observers, civil rights advocates, and anyone defending democracy. Whether you're monitoring threats, organizing actions, generating protest messages, or protecting democratic values, LibertyGuard provides the tools you need to stay safe and effective.
               </p>
             </div>
 
             <div className="pl-6">
               <h3 className="font-bold text-2xl text-climate-black mb-4 flex items-center gap-3">
-                <WarningIcon variant="triangle" size={24} /> How does the encrypted documentation work?
+                <WarningIcon variant="triangle" size={24} /> How does the protest message generator work?
               </h3>
               <p className="text-climate-black text-lg leading-relaxed">
-                All photos and videos are encrypted with AES-256 immediately upon capture and stored locally on your device. We never have access to your media. Metadata includes location, timestamp, and device info for legal chain of custody. Your evidence is protected even if your device is seized.
+                The Protest Message Generator provides 100+ researched, witty, and impactful messages for signs and chants. You can generate random messages or filter by cause (climate, democracy, justice, anti-fascism, etc.). All messages are carefully crafted to be powerful, clever, and safe—no names or identifying details that could endanger you.
               </p>
             </div>
 
@@ -278,11 +283,8 @@ export default function HomePage() {
               <h3 className="font-bold text-2xl text-climate-black mb-4 flex items-center gap-3">
                 <WarningIcon variant="triangle" size={24} /> What happens if authorities shut down the internet?
               </h3>
-              <p className="text-climate-black text-lg leading-relaxed mb-4">
-                All 35+ resistance guides, protest protocols, legal rights information, and survival content is cached locally on your device. Even when networks are shut down or heavily monitored, your critical resistance information remains fully accessible offline.
-              </p>
               <p className="text-climate-black text-lg leading-relaxed">
-                <strong>Additionally, LibertyGuard includes mesh networking technology</strong> that lets you communicate with nearby activists without internet or cellular service. Using Bluetooth and WiFi Direct, you can relay messages, alerts, and encrypted evidence through a peer-to-peer network—even during complete internet shutdowns. <Link href="/mesh-networking" className="text-climate-red font-bold hover:underline">Learn more about mesh networking →</Link>
+                All 35+ resistance guides, protest protocols, legal rights information, and survival content is cached locally on your device. Even when networks are shut down or heavily monitored, your critical resistance information remains fully accessible offline. Live messages are also cached locally and will sync when connectivity is restored.
               </p>
             </div>
 
