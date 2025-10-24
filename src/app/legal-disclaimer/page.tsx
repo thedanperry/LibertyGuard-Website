@@ -31,6 +31,56 @@ export default function LegalDisclaimer() {
           </section>
 
           <section>
+            <h2 className="text-2xl font-bold text-climate-red mb-4">First Amendment Protected Speech</h2>
+            <p className="text-lg leading-relaxed mb-4">
+              This application constitutes protected speech under the First Amendment to the United States Constitution. The content, 
+              including information about civil rights, constitutional protections, legal procedures, and historical examples of civil 
+              resistance, is educational material protected by the fundamental right to freedom of speech and expression.
+            </p>
+            <p className="text-lg leading-relaxed mb-4">
+              The developers and publishers exercise their constitutional right to disseminate information about civil rights, legal 
+              procedures, and historical examples of peaceful resistance. This application does not advocate violence, illegal activities, 
+              or any actions that would violate applicable laws.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-bold text-climate-red mb-4">Developer Neutrality and Personal Views</h2>
+            <p className="text-lg leading-relaxed mb-4">
+              The developers, publishers, and distributors of this application maintain strict neutrality regarding the personal views 
+              and political positions of users. This application is a tool for education and information dissemination, not a platform 
+              for political advocacy by its creators.
+            </p>
+            <p className="text-lg leading-relaxed mb-4">
+              The inclusion of information about civil resistance, constitutional rights, and legal procedures does not constitute 
+              endorsement of any particular political viewpoint, party, or ideology by the developers. Users are solely responsible 
+              for their own political views, actions, and decisions.
+            </p>
+            <p className="text-lg leading-relaxed mb-4">
+              The developers' personal political views, if any, are separate and distinct from this application. This tool is designed 
+              to provide objective information about legal rights and procedures, regardless of the developers' personal beliefs or affiliations.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-bold text-climate-red mb-4">Government Liability and Retaliation Protection</h2>
+            <p className="text-lg leading-relaxed mb-4">
+              The developers, publishers, and distributors of this application are protected by the First Amendment and cannot be held 
+              liable for government actions, investigations, or retaliation based on the content of this application. The dissemination 
+              of educational information about constitutional rights and legal procedures is protected speech.
+            </p>
+            <p className="text-lg leading-relaxed mb-4">
+              Any government investigation, surveillance, or adverse action against users of this application does not create liability 
+              for the developers. Users assume all risks associated with government scrutiny of their activities, whether related to 
+              this application or otherwise.
+            </p>
+            <p className="text-lg leading-relaxed mb-4">
+              The developers reserve the right to cooperate with lawful government investigations while maintaining their constitutional 
+              rights and protections. Any cooperation will be limited to lawful requests and will not extend beyond legal requirements.
+            </p>
+          </section>
+
+          <section>
             <h2 className="text-2xl font-bold text-climate-red mb-4">Not Legal Advice</h2>
             <p className="text-lg leading-relaxed mb-4">
               The legal information provided in this application and guides is general information about laws and constitutional rights. 
@@ -140,6 +190,18 @@ export default function LegalDisclaimer() {
             <p className="text-lg leading-relaxed mb-4">
               The developers, publishers, distributors, and all affiliated parties disclaim all liability for any injuries, damages, 
               legal consequences, financial losses, or other harm resulting from use of this application or reliance on information contained therein.
+            </p>
+
+            <h3 className="text-xl font-bold mb-2">Government Actions and Investigations</h3>
+            <p className="text-lg leading-relaxed mb-4">
+              The developers, publishers, and distributors are not liable for any government investigations, surveillance, arrests, 
+              prosecutions, or other adverse government actions taken against users of this application. Users assume all risks 
+              associated with government scrutiny of their activities and any consequences thereof.
+            </p>
+            <p className="text-lg leading-relaxed mb-4">
+              The developers cannot be held responsible for any government retaliation, harassment, or adverse treatment of users 
+              based on their use of this application or participation in activities described therein. Such actions are beyond 
+              the developers' control and are the sole responsibility of the government entities involved.
             </p>
 
             <h3 className="text-xl font-bold mb-2">You Assume All Risks</h3>
