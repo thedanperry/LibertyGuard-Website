@@ -15,13 +15,11 @@ export default function LegalDisclaimer() {
 
           <section>
             <h2 className="text-2xl font-bold text-climate-red mb-4">Critical Legal Notice</h2>
-            <div className="bg-red-900/20 border border-red-500/30 rounded-lg p-6 mb-6">
-              <p className="text-lg font-semibold text-red-300">
-                ATTENTION: This application and its associated guides are provided for EDUCATIONAL AND INFORMATIONAL PURPOSES ONLY. 
-                The information contained herein regarding civil resistance, protest activities, legal rights, and survival techniques 
-                is not intended as legal advice, professional guidance, or instruction for any specific situation.
-              </p>
-            </div>
+            <p className="text-lg leading-relaxed mb-4 font-bold">
+              ATTENTION: This application and its associated guides are provided for EDUCATIONAL AND INFORMATIONAL PURPOSES ONLY. 
+              The information contained herein regarding civil resistance, protest activities, legal rights, and survival techniques 
+              is not intended as legal advice, professional guidance, or instruction for any specific situation.
+            </p>
           </section>
 
           <section>
@@ -79,32 +77,32 @@ export default function LegalDisclaimer() {
           <section>
             <h2 className="text-2xl font-bold text-climate-red mb-4">Limitation of Liability</h2>
             
-            <h3 className="text-xl font-bold text-climate-red mb-3">To the Maximum Extent Permitted by Law</h3>
+            <h3 className="text-xl font-bold mb-2">To the Maximum Extent Permitted by Law</h3>
             <p className="text-lg leading-relaxed mb-4">
               The developers, publishers, distributors, and all affiliated parties disclaim all liability for any injuries, damages, 
               legal consequences, financial losses, or other harm resulting from use of this application or reliance on information contained therein.
             </p>
 
-            <h3 className="text-xl font-bold text-climate-red mb-3">You Assume All Risks</h3>
+            <h3 className="text-xl font-bold mb-2">You Assume All Risks</h3>
             <p className="text-lg leading-relaxed mb-4">
               Use of this application is at your own risk. You assume full responsibility for all consequences of your actions, 
               including legal consequences of protest activities, medical consequences of first aid attempts, financial consequences 
               of purchases, and any other outcomes resulting from use of this application.
             </p>
 
-            <h3 className="text-xl font-bold text-climate-red mb-3">No Warranties</h3>
+            <h3 className="text-xl font-bold mb-2">No Warranties</h3>
             <p className="text-lg leading-relaxed mb-4">
               This application and its content are provided 'as is' without warranties of any kind, express or implied, including but not 
               limited to warranties of accuracy, completeness, fitness for particular purpose, or non-infringement.
             </p>
 
-            <h3 className="text-xl font-bold text-climate-red mb-3">Indemnification</h3>
+            <h3 className="text-xl font-bold mb-2">Indemnification</h3>
             <p className="text-lg leading-relaxed mb-4">
               By using this application, you agree to indemnify and hold harmless the developers, publishers, and distributors from any 
               claims, damages, or expenses arising from your use of the application or your violation of any laws or rights of others.
             </p>
 
-            <h3 className="text-xl font-bold text-climate-red mb-3">Severability</h3>
+            <h3 className="text-xl font-bold mb-2">Severability</h3>
             <p className="text-lg leading-relaxed mb-4">
               If any provision of this disclaimer is found unenforceable, the remaining provisions remain in full force and effect.
             </p>
@@ -112,14 +110,12 @@ export default function LegalDisclaimer() {
 
           <section>
             <h2 className="text-2xl font-bold text-climate-red mb-4">Final Warning</h2>
-            <div className="bg-red-900/30 border border-red-500/50 rounded-lg p-6">
-              <p className="text-lg font-semibold text-red-300">
-                Resistance to authoritarian government is dangerous. People are arrested. People are injured. People face serious legal 
-                and personal consequences. This application provides information about resistance, but you alone decide whether to engage 
-                in resistance activities and you alone bear the consequences of those decisions. We cannot protect you from those consequences. 
-                We can only provide information to help you make informed decisions about the risks you choose to accept.
-              </p>
-            </div>
+            <p className="text-lg leading-relaxed mb-4 font-bold">
+              Resistance to authoritarian government is dangerous. People are arrested. People are injured. People face serious legal 
+              and personal consequences. This application provides information about resistance, but you alone decide whether to engage 
+              in resistance activities and you alone bear the consequences of those decisions. We cannot protect you from those consequences. 
+              We can only provide information to help you make informed decisions about the risks you choose to accept.
+            </p>
           </section>
 
           <div className="mt-16 pt-8 border-t border-climate-red text-center">
