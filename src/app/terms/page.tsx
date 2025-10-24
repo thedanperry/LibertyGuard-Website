@@ -65,6 +65,14 @@ export default function TermsPage() {
           </section>
 
           <section>
+            <h2 className="text-2xl font-bold text-climate-red mb-4">Age Restrictions</h2>
+            <p className="text-lg leading-relaxed mb-4">
+              You must be at least 18 years old to use this App. By using the App, you represent and warrant that you are 18 or older. 
+              Users under 18 are prohibited from using the App without parental supervision and consent.
+            </p>
+          </section>
+
+          <section>
             <h2 className="text-2xl font-bold text-climate-red mb-4">User Responsibilities</h2>
             
             <h3 className="text-xl font-bold text-climate-red mb-3">Acceptable Use</h3>
@@ -77,6 +85,18 @@ export default function TermsPage() {
               <li>Interfere with or disrupt the App's functionality</li>
               <li>Reverse engineer, decompile, or disassemble the App</li>
               <li>Share your account credentials with others</li>
+              <li>Submit false, misleading, or harmful information through the App</li>
+              <li>Use the App to harass, threaten, or intimidate others</li>
+              <li>Violate any applicable laws or regulations while using the App</li>
+            </ul>
+
+            <h3 className="text-xl font-bold text-climate-red mb-3">User-Generated Content</h3>
+            <ul className="list-disc list-inside space-y-2 ml-4 mb-6">
+              <li><strong>Your Responsibility:</strong> You are solely responsible for any content you submit through the App</li>
+              <li><strong>Accuracy:</strong> You must ensure all submitted information is accurate and truthful</li>
+              <li><strong>Legal Compliance:</strong> Your content must comply with all applicable laws</li>
+              <li><strong>No Endorsement:</strong> We do not endorse or verify user-submitted content</li>
+              <li><strong>Moderation Rights:</strong> We reserve the right to remove content that violates these Terms</li>
             </ul>
 
             <h3 className="text-xl font-bold text-climate-red mb-3">Emergency Information</h3>
@@ -85,6 +105,7 @@ export default function TermsPage() {
               <li><strong>Verification:</strong> Always verify critical information through official sources</li>
               <li><strong>Liability:</strong> We are not responsible for decisions made based on app information</li>
               <li><strong>Emergency Situations:</strong> In life-threatening emergencies, contact emergency services immediately</li>
+              <li><strong>Not Emergency Services:</strong> This App is not a substitute for 911 or emergency services</li>
             </ul>
           </section>
 
@@ -109,6 +130,27 @@ export default function TermsPage() {
           </section>
 
           <section>
+            <h2 className="text-2xl font-bold text-climate-red mb-4">Protest and Activism Activities</h2>
+            <ul className="list-disc list-inside space-y-2 ml-4">
+              <li><strong>Your Choice:</strong> Participation in protests, demonstrations, or resistance activities is entirely your choice</li>
+              <li><strong>Legal Risks:</strong> Such activities carry inherent legal risks including arrest, prosecution, and civil liability</li>
+              <li><strong>No Liability:</strong> We are not responsible for any legal consequences of your participation in activism</li>
+              <li><strong>Local Laws:</strong> You are responsible for understanding and complying with local laws regarding protests and demonstrations</li>
+              <li><strong>Safety First:</strong> Always prioritize your safety and the safety of others</li>
+            </ul>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-bold text-climate-red mb-4">International Users</h2>
+            <ul className="list-disc list-inside space-y-2 ml-4">
+              <li><strong>US-Focused:</strong> This App is designed primarily for users in the United States</li>
+              <li><strong>Local Compliance:</strong> International users must comply with their local laws and regulations</li>
+              <li><strong>No Guarantee:</strong> We do not guarantee the App's legality or functionality outside the United States</li>
+              <li><strong>Your Risk:</strong> Use of the App outside the United States is at your own risk</li>
+            </ul>
+          </section>
+
+          <section>
             <h2 className="text-2xl font-bold text-climate-red mb-4">Disclaimers and Limitations</h2>
             
             <h3 className="text-xl font-bold text-climate-red mb-3">Service Disclaimers</h3>
@@ -117,6 +159,7 @@ export default function TermsPage() {
               <li><strong>Emergency Use:</strong> The App is for informational purposes and is not a substitute for professional emergency services</li>
               <li><strong>Accuracy:</strong> We do not guarantee the accuracy, completeness, or timeliness of information</li>
               <li><strong>Availability:</strong> We do not guarantee uninterrupted access to the App</li>
+              <li><strong>Third-Party Content:</strong> We do not control or verify information from third-party sources</li>
             </ul>
 
             <h3 className="text-xl font-bold text-climate-red mb-3">Limitation of Liability</h3>
@@ -125,6 +168,7 @@ export default function TermsPage() {
               <li><strong>Maximum Liability:</strong> Our total liability is limited to the amount you paid for the App</li>
               <li><strong>Indirect Damages:</strong> We are not liable for indirect, incidental, or consequential damages</li>
               <li><strong>Emergency Situations:</strong> We are not liable for decisions made in emergency situations</li>
+              <li><strong>Activism Consequences:</strong> We are not liable for any consequences of protest or resistance activities</li>
             </ul>
           </section>
 
