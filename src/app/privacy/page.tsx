@@ -10,7 +10,7 @@ export default function PrivacyPage() {
 
         <div className="space-y-8 text-climate-cream">
           <div className="text-center mb-8">
-            <p className="text-sm opacity-60">Effective Date: October 11, 2025</p>
+            <p className="text-sm opacity-60">Effective Date: October 2025</p>
           </div>
 
           <section>
@@ -161,7 +161,7 @@ export default function PrivacyPage() {
 
           <div className="mt-16 pt-8 border-t border-climate-red text-center">
             <p className="text-sm opacity-60">
-              This Privacy Policy is effective as of October 11, 2025 and applies to all users of the LibertyGuard application.
+              This Privacy Policy is effective as of October 2025 and applies to all users of the LibertyGuard application.
             </p>
           </div>
         </div>

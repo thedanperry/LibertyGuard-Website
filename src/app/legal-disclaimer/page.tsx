@@ -10,8 +10,16 @@ export default function LegalDisclaimer() {
 
         <div className="space-y-8 text-climate-cream">
           <div className="text-center mb-8">
-            <p className="text-sm opacity-60">Effective Date: January 11, 2025</p>
+            <p className="text-sm opacity-60">Effective Date: October 2025</p>
           </div>
+
+          <section>
+            <h2 className="text-2xl font-bold text-climate-red mb-4">Age Restrictions</h2>
+            <p className="text-lg leading-relaxed mb-4">
+              This application is intended for users 18 years of age or older. By using this application, you represent and warrant that you are at least 18 years old. 
+              Users under 18 are prohibited from using this application without parental supervision and consent.
+            </p>
+          </section>
 
           <section>
             <h2 className="text-2xl font-bold text-climate-red mb-4">Critical Legal Notice</h2>
@@ -49,10 +57,27 @@ export default function LegalDisclaimer() {
           </section>
 
           <section>
+            <h2 className="text-2xl font-bold text-climate-red mb-4">International Users</h2>
+            <p className="text-lg leading-relaxed mb-4">
+              This application is designed primarily for users in the United States. International users are responsible for compliance with their local laws. 
+              Information provided may not be applicable or legal in your jurisdiction. Use of this application outside the United States is at your own risk.
+            </p>
+          </section>
+
+          <section>
             <h2 className="text-2xl font-bold text-climate-red mb-4">Laws Change</h2>
             <p className="text-lg leading-relaxed mb-4">
               Legal information in this application may become outdated as laws change through legislation, court decisions, and executive action. 
               We cannot guarantee that legal information is current. Verify current law before relying on information in this application.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-bold text-climate-red mb-4">Emergency Services</h2>
+            <p className="text-lg leading-relaxed mb-4">
+              This application is not a substitute for emergency services. In life-threatening emergencies, call 911 immediately. 
+              The emergency beacon feature is designed to alert your personal contacts, not emergency services. Always contact appropriate 
+              emergency services directly for immediate assistance.
             </p>
           </section>
 
@@ -66,11 +91,45 @@ export default function LegalDisclaimer() {
           </section>
 
           <section>
+            <h2 className="text-2xl font-bold text-climate-red mb-4">User-Generated Content</h2>
+            <p className="text-lg leading-relaxed mb-4">
+              Users may submit alerts, messages, and other content through this application. We do not endorse or verify user-generated content. 
+              Users are solely responsible for the accuracy and legality of their submissions. We reserve the right to moderate or remove content 
+              that violates our guidelines or applicable laws.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-bold text-climate-red mb-4">Media Evidence and Chain of Custody</h2>
+            <p className="text-lg leading-relaxed mb-4">
+              While this application provides tools for documenting incidents, we cannot guarantee the legal admissibility of media evidence captured 
+              through the app. Chain of custody, authentication, and legal admissibility are the user's responsibility. Consult with legal professionals 
+              regarding the use of any evidence in legal proceedings.
+            </p>
+          </section>
+
+          <section>
             <h2 className="text-2xl font-bold text-climate-red mb-4">Safety and Risk</h2>
             <p className="text-lg leading-relaxed mb-4">
               Activities described in this application, including protest activities, civil resistance, and survival techniques, 
               carry inherent risks including but not limited to arrest, injury, legal consequences, and personal harm. 
               You assume all risks associated with any activities you choose to undertake based on information in this application.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-bold text-climate-red mb-4">Service Availability</h2>
+            <p className="text-lg leading-relaxed mb-4">
+              We strive to maintain service availability but cannot guarantee uninterrupted access. Service may be interrupted due to technical issues, 
+              maintenance, force majeure events, or external factors beyond our control. We are not liable for any consequences of service interruptions.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-bold text-climate-red mb-4">Data Security and Breach Liability</h2>
+            <p className="text-lg leading-relaxed mb-4">
+              While we implement security measures to protect user data, no system is completely secure. We are not liable for data breaches, 
+              unauthorized access, or data loss. Users are responsible for maintaining the security of their devices and account information.
             </p>
           </section>
 
@@ -120,15 +179,9 @@ export default function LegalDisclaimer() {
 
           <div className="mt-16 pt-8 border-t border-climate-red text-center">
             <p className="text-sm opacity-60">
-              This Legal Disclaimer is effective as of January 11, 2025 and applies to all users of the LibertyGuard application.
+              This Legal Disclaimer is effective as of October 2025 and applies to all users of the LibertyGuard application.
             </p>
           </div>
-        </div>
-
-        <div className="text-center mt-12">
-          <Link href="/" className="bg-climate-red text-climate-cream px-8 py-3 rounded-full text-lg font-bold hover:bg-red-700 transition-colors">
-            BACK TO HOME
-          </Link>
         </div>
       </div>
     </div>
