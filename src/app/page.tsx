@@ -311,6 +311,7 @@ export default function HomePage() {
             <div className="flex justify-center space-x-6">
               <Link href="/privacy" className="text-climate-red hover:text-climate-cream transition-colors">Privacy Policy</Link>
               <Link href="/terms" className="text-climate-red hover:text-climate-cream transition-colors">Terms of Service</Link>
+              <Link href="/legal-disclaimer" className="text-climate-red hover:text-climate-cream transition-colors">Legal Disclaimer</Link>
             </div>
             <p className="text-climate-cream text-sm">
               Support: <a href="mailto:support@libertyguard.app" className="text-climate-red hover:underline font-bold">support@libertyguard.app</a>
