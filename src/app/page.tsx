@@ -307,11 +307,11 @@ export default function HomePage() {
                 <h3 className="text-climate-cream text-2xl font-bold mb-2">LIBERTY GUARD</h3>
             <p className="text-climate-cream text-sm opacity-60">Defend Democracy. Protect Rights.</p>
           </div>
-          <div className="space-y-2 text-sm">
-            <div className="flex justify-center space-x-6">
+          <div className="space-y-4 text-sm">
+            <div className="flex flex-wrap justify-center gap-4">
               <Link href="/privacy" className="text-climate-red hover:text-climate-cream transition-colors">Privacy Policy</Link>
               <Link href="/terms" className="text-climate-red hover:text-climate-cream transition-colors">Terms of Service</Link>
-              <Link href="/legal-disclaimer" className="text-climate-red hover:text-climate-cream transition-colors">Legal Disclaimer</Link>
+              <Link href="/protest-safety" className="text-climate-red hover:text-climate-cream transition-colors">Protest Safety Guide</Link>
             </div>
             <p className="text-climate-cream text-sm">
               Support: <a href="mailto:support@libertyguard.app" className="text-climate-red hover:underline font-bold">support@libertyguard.app</a>
