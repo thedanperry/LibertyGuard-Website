@@ -20,8 +20,8 @@ export default function ProtestSafetyPage() {
           <p className="text-climate-cream text-lg opacity-75">Complete 2025 guide to protest safety, legal rights, and emergency protocols</p>
         </div>
 
-        <div className="bg-climate-red bg-opacity-10 p-6 rounded-lg mb-8">
-          <p className="text-climate-cream text-lg font-bold mb-2"><strong>Critical:</strong> Read this before your next protest</p>
+        <div className="p-6 rounded-lg mb-8 border-2 border-climate-red">
+          <p className="text-climate-cream text-lg font-bold mb-2"><strong className="text-climate-red">Critical:</strong> Read this before your next protest</p>
           <p className="text-climate-cream">
             People get arrested. People get injured. People face serious legal consequences. This guide gives you the knowledge to protect yourself when things go wrong. <strong className="text-climate-red">No theory. Just practical, actionable information.</strong>
           </p>
@@ -144,7 +144,7 @@ export default function ProtestSafetyPage() {
               <li><strong>Property damage:</strong> Photos of damaged property or belongings</li>
               <li><strong>Video evidence:</strong> Record police encounters (legal in public spaces in most states)</li>
             </ul>
-            <div className="bg-climate-red bg-opacity-10 p-6 rounded-lg mb-4">
+            <div className="p-6 rounded-lg mb-4 border-2 border-climate-red">
               <p className="text-climate-cream text-lg leading-relaxed">
                 <strong className="text-climate-red">Legal Note:</strong> You have the right to record police activity in public spaces in most jurisdictions. However, laws vary by state. Check local laws before recording. If you're arrested, your phone may be confiscated, so cloud backup is essential.
               </p>
@@ -167,7 +167,7 @@ export default function ProtestSafetyPage() {
             </ul>
           </section>
 
-          <section className="bg-climate-red bg-opacity-10 p-8 rounded-lg">
+          <section className="p-8 rounded-lg border-2 border-climate-red">
             <h2 className="text-2xl font-bold text-climate-red mb-4">Download LibertyGuard for Complete Protection</h2>
             <p className="text-lg leading-relaxed mb-6">
               The LibertyGuard app provides real-time protection during protests and civil unrest:
@@ -210,7 +210,7 @@ export default function ProtestSafetyPage() {
           </section>
 
           <div className="mt-12 space-y-4">
-            <div className="bg-climate-red bg-opacity-10 p-6 rounded-lg mb-8">
+            <div className="p-6 rounded-lg mb-8 border-2 border-climate-red">
               <h3 className="text-xl font-bold text-climate-red mb-4">Related Guides</h3>
               <ul className="space-y-3">
                 <li>

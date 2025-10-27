@@ -20,10 +20,10 @@ export default function KnowYourRightsPage() {
           <p className="text-climate-cream text-lg opacity-75">Complete 2025 legal guide for activists, protesters, and defenders of democracy</p>
         </div>
 
-        <div className="p-6 rounded-lg mb-8 border-2 border-climate-red">
-          <p className="text-climate-cream text-lg font-bold mb-2"><strong className="text-climate-red">Critical:</strong> These are your legal rights</p>
+        <div className="bg-climate-red bg-opacity-10 p-6 rounded-lg mb-8">
+          <p className="text-climate-cream text-lg font-bold mb-2">Critical: These are your legal rights</p>
           <p className="text-climate-cream">
-            The Constitution protects your right to protest, but those protections only work if you <strong className="text-climate-red">know them, assert them, and document violations.</strong> This guide covers everything you need to know to protect yourself legally.
+            The Constitution protects your right to protest, but those protections only work if you know them, assert them, and document violations. This guide covers everything you need to know to protect yourself legally.
           </p>
         </div>
 
@@ -212,7 +212,7 @@ export default function KnowYourRightsPage() {
             </p>
           </section>
 
-          <section className="bg-climate-red bg-opacity-10 p-8 rounded-lg">
+          <section className="p-8 rounded-lg border-2 border-climate-red">
             <h2 className="text-2xl font-bold text-climate-red mb-4">Download LibertyGuard for Complete Rights Protection</h2>
             <p className="text-lg leading-relaxed mb-6">
               The LibertyGuard app provides real-time legal protection and emergency protocols:
@@ -241,7 +241,7 @@ export default function KnowYourRightsPage() {
           </section>
 
           <div className="mt-12 space-y-4">
-            <div className="bg-climate-red bg-opacity-10 p-6 rounded-lg mb-8">
+            <div className="p-6 rounded-lg mb-8 border-2 border-climate-red">
               <h3 className="text-xl font-bold text-climate-red mb-4">Related Guides</h3>
               <ul className="space-y-3">
                 <li>
