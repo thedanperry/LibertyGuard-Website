@@ -17,7 +17,7 @@ export default function KnowYourRightsPage() {
         
         <div className="text-center mb-8">
           <p className="text-climate-cream text-xl font-bold mb-2">Your Constitutional Rights During Protests and Police Encounters</p>
-          <p className="text-climate-cream text-lg opacity-75">Complete 2025 legal guide for activists, protesters, and defenders of democracy</p>
+          <p className="text-climate-cream text-lg opacity-75">Complete legal guide for activists, protesters, and defenders of democracy</p>
         </div>
 
         <div className="bg-climate-red bg-opacity-10 p-6 rounded-lg mb-8">

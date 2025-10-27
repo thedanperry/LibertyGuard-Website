@@ -17,7 +17,7 @@ export default function ProtestSafetyPage() {
         
         <div className="text-center mb-8">
           <p className="text-climate-cream text-xl font-bold mb-2">Know Your Rights. Stay Safe. Document Everything.</p>
-          <p className="text-climate-cream text-lg opacity-75">Complete 2025 guide to protest safety, legal rights, and emergency protocols</p>
+          <p className="text-climate-cream text-lg opacity-75">Complete guide to protest safety, legal rights, and emergency protocols</p>
         </div>
 
         <div className="bg-climate-red bg-opacity-10 p-6 rounded-lg mb-8">
