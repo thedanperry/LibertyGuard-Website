@@ -21,7 +21,7 @@ export default function KnowYourRightsPage() {
         </div>
 
         <div className="bg-climate-red bg-opacity-10 p-6 rounded-lg mb-8">
-          <p className="text-climate-cream text-lg font-bold mb-2">⚖️ <strong>Critical:</strong> These are your legal rights</p>
+          <p className="text-climate-cream text-lg font-bold mb-2"><strong>Critical:</strong> These are your legal rights</p>
           <p className="text-climate-cream">
             The Constitution protects your right to protest, but those protections only work if you <strong className="text-climate-red">know them, assert them, and document violations.</strong> This guide covers everything you need to know to protect yourself legally.
           </p>
@@ -70,9 +70,9 @@ export default function KnowYourRightsPage() {
               <li>You can say: "I do not consent to this search"</li>
               <li>If arrested, you must be informed of the charges against you</li>
             </ul>
-            <div className="bg-climate-red bg-opacity-10 p-6 rounded-lg mb-4">
+            <div className="mb-4">
               <p className="text-lg leading-relaxed font-bold text-climate-red">
-                ⚠️ IMPORTANT: You can verbally refuse searches, but do not physically resist. If police search you against your will, document it and fight it in court, not on the street.
+                IMPORTANT: You can verbally refuse searches, but do not physically resist. If police search you against your will, document it and fight it in court, not on the street.
               </p>
             </div>
           </section>
@@ -92,8 +92,8 @@ export default function KnowYourRightsPage() {
               <li>You do not have to provide ID unless you're driving or in certain states</li>
               <li>Anything you say can and will be used against you in court</li>
             </ul>
-            <div className="bg-climate-red bg-opacity-10 p-6 rounded-lg mb-4">
-              <p className="text-lg leading-relaxed">
+            <div className="mb-4">
+              <p className="text-climate-cream text-lg leading-relaxed">
                 <strong className="text-climate-red">What to say to police:</strong> "I am exercising my First Amendment right to protest peacefully. I want to speak to a lawyer before answering any questions. Am I under arrest? Am I free to go?"
               </p>
             </div>
@@ -133,7 +133,7 @@ export default function KnowYourRightsPage() {
               <li>You can livestream to protect evidence from being deleted</li>
             </ul>
             <p className="text-lg leading-relaxed mb-4">
-              <strong className="text-climate-red">⚠️ Check local laws:</strong> Some states have restrictions on recording without consent. Research your local laws before recording. In most public protest situations, recording police activity is legal and protected.
+              <strong className="text-climate-red">Check local laws:</strong> Some states have restrictions on recording without consent. Research your local laws before recording. In most public protest situations, recording police activity is legal and protected.
             </p>
           </section>
 

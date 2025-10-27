@@ -21,7 +21,7 @@ export default function ProtestSafetyPage() {
         </div>
 
         <div className="bg-climate-red bg-opacity-10 p-6 rounded-lg mb-8">
-          <p className="text-climate-cream text-lg font-bold mb-2">⚠️ <strong>Critical:</strong> Read this before your next protest</p>
+          <p className="text-climate-cream text-lg font-bold mb-2"><strong>Critical:</strong> Read this before your next protest</p>
           <p className="text-climate-cream">
             People get arrested. People get injured. People face serious legal consequences. This guide gives you the knowledge to protect yourself when things go wrong. <strong className="text-climate-red">No theory. Just practical, actionable information.</strong>
           </p>
@@ -79,7 +79,7 @@ export default function ProtestSafetyPage() {
               </ul>
             </div>
             <div className="mb-6">
-              <h3 className="text-xl font-bold text-climate-red mb-3">⚠️ What NOT to Bring:</h3>
+              <h3 className="text-xl font-bold text-climate-red mb-3">What NOT to Bring:</h3>
               <ul className="list-disc list-inside space-y-2 ml-4">
                 <li><strong>Weapons:</strong> Firearms, knives, or any weapons (illegal at most protests)</li>
                 <li><strong>Controlled substances:</strong> Drugs or alcohol</li>
