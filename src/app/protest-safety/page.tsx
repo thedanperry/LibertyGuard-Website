@@ -221,7 +221,10 @@ export default function ProtestSafetyPage() {
                 </li>
               </ul>
             </div>
-            <div className="text-center mt-12">
+            <div className="text-center space-y-4 mt-12">
+              <Link href="/know-your-rights" className="bg-climate-red text-climate-cream px-8 py-3 rounded-full text-lg font-bold hover:bg-red-700 transition-colors">
+                BACK TO KNOW YOUR RIGHTS GUIDE
+              </Link>
               <Link href="/" className="bg-climate-red text-climate-cream px-8 py-3 rounded-full text-lg font-bold hover:bg-red-700 transition-colors">
                 BACK TO HOME
               </Link>
