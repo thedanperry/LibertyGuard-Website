@@ -211,7 +211,7 @@ export default function ProtestSafetyPage() {
 
           <div className="mt-12 space-y-4">
             <div className="bg-climate-red bg-opacity-10 p-6 rounded-lg mb-8">
-              <h3 className="text-xl font-bold text-climate-red mb-4">Related Guides</h3>
+              <h3 className="text-xl font-bold text-climate-cream mb-4">Related Guides</h3>
               <ul className="space-y-3">
                 <li>
                   <Link href="/know-your-rights" className="text-climate-cream hover:text-climate-red transition-colors underline">
