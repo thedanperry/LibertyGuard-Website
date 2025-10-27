@@ -23,7 +23,7 @@ export default function KnowYourRightsPage() {
         <div className="bg-climate-red bg-opacity-10 p-6 rounded-lg mb-8">
           <p className="text-climate-cream text-lg font-bold mb-2"><strong>Critical:</strong> These are your legal rights</p>
           <p className="text-climate-cream">
-            The Constitution protects your right to protest, but those protections only work if you <strong className="text-climate-red">know them, assert them, and document violations.</strong> This guide covers everything you need to know to protect yourself legally.
+            The Constitution protects your right to protest, but those protections only work if you <strong>know them, assert them, and document violations.</strong> This guide covers everything you need to know to protect yourself legally.
           </p>
         </div>
 
@@ -34,7 +34,7 @@ export default function KnowYourRightsPage() {
               The First Amendment guarantees your right to <strong>peaceful assembly</strong>, <strong>freedom of speech</strong>, and <strong>freedom to petition the government</strong>. These are constitutional rights, not privileges. But you need to know how to exercise them legally.
             </p>
             <p className="text-lg leading-relaxed mb-4">
-              <strong className="text-climate-red">What you can do:</strong>
+              <strong>What you can do:</strong>
             </p>
             <ul className="list-disc list-inside space-y-2 ml-4 mb-4">
               <li>Protest peacefully in public spaces (parks, sidewalks, plazas)</li>
@@ -44,7 +44,7 @@ export default function KnowYourRightsPage() {
               <li>Record arrests and incidents as they happen</li>
             </ul>
             <p className="text-lg leading-relaxed mb-4">
-              <strong className="text-climate-red">Legal limitations:</strong>
+              <strong>Legal limitations:</strong>
             </p>
             <ul className="list-disc list-inside space-y-2 ml-4 mb-4">
               <li>Cannot block traffic or emergency vehicles</li>
@@ -61,7 +61,7 @@ export default function KnowYourRightsPage() {
               The Fourth Amendment protects you from <strong>unreasonable searches and seizures</strong>. This applies to your person, your belongings, and your digital devices.
             </p>
             <p className="text-lg leading-relaxed mb-4">
-              <strong className="text-climate-red">Your rights:</strong>
+              <strong>Your rights:</strong>
             </p>
             <ul className="list-disc list-inside space-y-2 ml-4 mb-4">
               <li>You can refuse searches without a warrant or probable cause</li>
@@ -83,7 +83,7 @@ export default function KnowYourRightsPage() {
               The Fifth Amendment gives you the <strong>right to remain silent</strong> and protects you from self-incrimination. This is one of your most important rights during police encounters.
             </p>
             <p className="text-lg leading-relaxed mb-4">
-              <strong className="text-climate-red">What this means:</strong>
+              <strong>What this means:</strong>
             </p>
             <ul className="list-disc list-inside space-y-2 ml-4 mb-4">
               <li>You do not have to answer police questions</li>
@@ -94,7 +94,7 @@ export default function KnowYourRightsPage() {
             </ul>
             <div className="mb-4">
               <p className="text-climate-cream text-lg leading-relaxed">
-                <strong className="text-climate-red">What to say to police:</strong> "I am exercising my First Amendment right to protest peacefully. I want to speak to a lawyer before answering any questions. Am I under arrest? Am I free to go?"
+                <strong>What to say to police:</strong> "I am exercising my First Amendment right to protest peacefully. I want to speak to a lawyer before answering any questions. Am I under arrest? Am I free to go?"
               </p>
             </div>
           </section>
@@ -105,7 +105,7 @@ export default function KnowYourRightsPage() {
               If you're arrested, the Sixth Amendment guarantees your <strong>right to legal representation</strong>. Do not answer questions or sign anything until your lawyer is present.
             </p>
             <p className="text-lg leading-relaxed mb-4">
-              <strong className="text-climate-red">If arrested:</strong>
+              <strong>If arrested:</strong>
             </p>
             <ul className="list-disc list-inside space-y-2 ml-4 mb-4">
               <li>State clearly: "I want to speak to a lawyer"</li>
@@ -123,7 +123,7 @@ export default function KnowYourRightsPage() {
               You have the right to <strong>record police activity in public spaces</strong> in most jurisdictions. This is protected by the First Amendment (freedom of press).
             </p>
             <p className="text-lg leading-relaxed mb-4">
-              <strong className="text-climate-red">Recording rights:</strong>
+              <strong>Recording rights:</strong>
             </p>
             <ul className="list-disc list-inside space-y-2 ml-4 mb-4">
               <li>You can record police in public spaces where you have a legal right to be</li>
@@ -133,7 +133,7 @@ export default function KnowYourRightsPage() {
               <li>You can livestream to protect evidence from being deleted</li>
             </ul>
             <p className="text-lg leading-relaxed mb-4">
-              <strong className="text-climate-red">Check local laws:</strong> Some states have restrictions on recording without consent. Research your local laws before recording. In most public protest situations, recording police activity is legal and protected.
+              <strong>Check local laws:</strong> Some states have restrictions on recording without consent. Research your local laws before recording. In most public protest situations, recording police activity is legal and protected.
             </p>
           </section>
 
@@ -169,14 +169,14 @@ export default function KnowYourRightsPage() {
               If you're arrested during a protest, follow these steps to protect your rights:
             </p>
             <ol className="list-decimal list-inside space-y-3 ml-4 mb-4">
-              <li><strong className="text-climate-red">Stay calm.</strong> Don't resist physically. Physical resistance is a separate crime.</li>
-              <li><strong className="text-climate-red">State your rights clearly:</strong> "I am exercising my First Amendment right to protest. I want to speak to a lawyer."</li>
-              <li><strong className="text-climate-red">Remain silent.</strong> Don't answer questions except to ask: "Am I under arrest? Am I free to go?"</li>
-              <li><strong className="text-climate-red">Ask for a lawyer immediately.</strong> Say: "I want to speak to a lawyer" repeatedly if necessary.</li>
-              <li><strong className="text-climate-red">Document everything.</strong> Officer names, badge numbers, what was said, witnesses present.</li>
-              <li><strong className="text-climate-red">Use your one phone call.</strong> Call a lawyer, legal aid, or trusted contact.</li>
-              <li><strong className="text-climate-red">Don't sign anything</strong> without consulting with a lawyer first.</li>
-              <li><strong className="text-climate-red">Don't plead guilty</strong> at your first court appearance without legal counsel.</li>
+              <li><strong>Stay calm.</strong> Don't resist physically. Physical resistance is a separate crime.</li>
+              <li><strong>State your rights clearly:</strong> "I am exercising my First Amendment right to protest. I want to speak to a lawyer."</li>
+              <li><strong>Remain silent.</strong> Don't answer questions except to ask: "Am I under arrest? Am I free to go?"</li>
+              <li><strong>Ask for a lawyer immediately.</strong> Say: "I want to speak to a lawyer" repeatedly if necessary.</li>
+              <li><strong>Document everything.</strong> Officer names, badge numbers, what was said, witnesses present.</li>
+              <li><strong>Use your one phone call.</strong> Call a lawyer, legal aid, or trusted contact.</li>
+              <li><strong>Don't sign anything</strong> without consulting with a lawyer first.</li>
+              <li><strong>Don't plead guilty</strong> at your first court appearance without legal counsel.</li>
             </ol>
           </section>
 
@@ -208,7 +208,7 @@ export default function KnowYourRightsPage() {
               <li><strong>Video Evidence:</strong> Record police encounters (legal in most public places)</li>
             </ul>
             <p className="text-lg leading-relaxed mb-4">
-              <strong className="text-climate-red">If your phone is confiscated:</strong> Use cloud backup, send videos to trusted contacts immediately, or livestream to protect evidence.
+              <strong>If your phone is confiscated:</strong> Use cloud backup, send videos to trusted contacts immediately, or livestream to protect evidence.
             </p>
           </section>
 
