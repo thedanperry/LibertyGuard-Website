@@ -17,13 +17,13 @@ export default function KnowYourRightsPage() {
         
         <div className="text-center mb-8">
           <p className="text-climate-cream text-xl font-bold mb-2">Your Constitutional Rights During Protests and Police Encounters</p>
-          <p className="text-climate-cream text-lg opacity-75">Complete legal guide for activists, protesters, and defenders of democracy</p>
+          <p className="text-climate-cream text-lg opacity-75">Complete 2025 legal guide for activists, protesters, and defenders of democracy</p>
         </div>
 
         <div className="bg-climate-red bg-opacity-10 p-6 rounded-lg mb-8">
-          <p className="text-climate-cream text-lg font-bold mb-2"><strong>Critical:</strong> These are your legal rights</p>
+          <p className="text-climate-cream text-lg font-bold mb-2">Critical: These are your legal rights</p>
           <p className="text-climate-cream">
-            The Constitution protects your right to protest, but those protections only work if you <strong>know them, assert them, and document violations.</strong> This guide covers everything you need to know to protect yourself legally.
+            The Constitution protects your right to protest, but those protections only work if you know them, assert them, and document violations. This guide covers everything you need to know to protect yourself legally.
           </p>
         </div>
 
@@ -34,7 +34,7 @@ export default function KnowYourRightsPage() {
               The First Amendment guarantees your right to <strong>peaceful assembly</strong>, <strong>freedom of speech</strong>, and <strong>freedom to petition the government</strong>. These are constitutional rights, not privileges. But you need to know how to exercise them legally.
             </p>
             <p className="text-lg leading-relaxed mb-4">
-              <strong>What you can do:</strong>
+              <strong className="text-climate-red">What you can do:</strong>
             </p>
             <ul className="list-disc list-inside space-y-2 ml-4 mb-4">
               <li>Protest peacefully in public spaces (parks, sidewalks, plazas)</li>
@@ -44,7 +44,7 @@ export default function KnowYourRightsPage() {
               <li>Record arrests and incidents as they happen</li>
             </ul>
             <p className="text-lg leading-relaxed mb-4">
-              <strong>Legal limitations:</strong>
+              <strong className="text-climate-red">Legal limitations:</strong>
             </p>
             <ul className="list-disc list-inside space-y-2 ml-4 mb-4">
               <li>Cannot block traffic or emergency vehicles</li>
@@ -61,7 +61,7 @@ export default function KnowYourRightsPage() {
               The Fourth Amendment protects you from <strong>unreasonable searches and seizures</strong>. This applies to your person, your belongings, and your digital devices.
             </p>
             <p className="text-lg leading-relaxed mb-4">
-              <strong>Your rights:</strong>
+              <strong className="text-climate-red">Your rights:</strong>
             </p>
             <ul className="list-disc list-inside space-y-2 ml-4 mb-4">
               <li>You can refuse searches without a warrant or probable cause</li>
@@ -83,7 +83,7 @@ export default function KnowYourRightsPage() {
               The Fifth Amendment gives you the <strong>right to remain silent</strong> and protects you from self-incrimination. This is one of your most important rights during police encounters.
             </p>
             <p className="text-lg leading-relaxed mb-4">
-              <strong>What this means:</strong>
+              <strong className="text-climate-red">What this means:</strong>
             </p>
             <ul className="list-disc list-inside space-y-2 ml-4 mb-4">
               <li>You do not have to answer police questions</li>
@@ -94,7 +94,7 @@ export default function KnowYourRightsPage() {
             </ul>
             <div className="mb-4">
               <p className="text-climate-cream text-lg leading-relaxed">
-                <strong>What to say to police:</strong> "I am exercising my First Amendment right to protest peacefully. I want to speak to a lawyer before answering any questions. Am I under arrest? Am I free to go?"
+                <strong className="text-climate-red">What to say to police:</strong> "I am exercising my First Amendment right to protest peacefully. I want to speak to a lawyer before answering any questions. Am I under arrest? Am I free to go?"
               </p>
             </div>
           </section>
@@ -105,7 +105,7 @@ export default function KnowYourRightsPage() {
               If you're arrested, the Sixth Amendment guarantees your <strong>right to legal representation</strong>. Do not answer questions or sign anything until your lawyer is present.
             </p>
             <p className="text-lg leading-relaxed mb-4">
-              <strong>If arrested:</strong>
+              <strong className="text-climate-red">If arrested:</strong>
             </p>
             <ul className="list-disc list-inside space-y-2 ml-4 mb-4">
               <li>State clearly: "I want to speak to a lawyer"</li>
@@ -123,7 +123,7 @@ export default function KnowYourRightsPage() {
               You have the right to <strong>record police activity in public spaces</strong> in most jurisdictions. This is protected by the First Amendment (freedom of press).
             </p>
             <p className="text-lg leading-relaxed mb-4">
-              <strong>Recording rights:</strong>
+              <strong className="text-climate-red">Recording rights:</strong>
             </p>
             <ul className="list-disc list-inside space-y-2 ml-4 mb-4">
               <li>You can record police in public spaces where you have a legal right to be</li>
@@ -133,7 +133,7 @@ export default function KnowYourRightsPage() {
               <li>You can livestream to protect evidence from being deleted</li>
             </ul>
             <p className="text-lg leading-relaxed mb-4">
-              <strong>Check local laws:</strong> Some states have restrictions on recording without consent. Research your local laws before recording. In most public protest situations, recording police activity is legal and protected.
+              <strong className="text-climate-red">Check local laws:</strong> Some states have restrictions on recording without consent. Research your local laws before recording. In most public protest situations, recording police activity is legal and protected.
             </p>
           </section>
 
@@ -169,14 +169,14 @@ export default function KnowYourRightsPage() {
               If you're arrested during a protest, follow these steps to protect your rights:
             </p>
             <ol className="list-decimal list-inside space-y-3 ml-4 mb-4">
-              <li><strong>Stay calm.</strong> Don't resist physically. Physical resistance is a separate crime.</li>
-              <li><strong>State your rights clearly:</strong> "I am exercising my First Amendment right to protest. I want to speak to a lawyer."</li>
-              <li><strong>Remain silent.</strong> Don't answer questions except to ask: "Am I under arrest? Am I free to go?"</li>
-              <li><strong>Ask for a lawyer immediately.</strong> Say: "I want to speak to a lawyer" repeatedly if necessary.</li>
-              <li><strong>Document everything.</strong> Officer names, badge numbers, what was said, witnesses present.</li>
-              <li><strong>Use your one phone call.</strong> Call a lawyer, legal aid, or trusted contact.</li>
-              <li><strong>Don't sign anything</strong> without consulting with a lawyer first.</li>
-              <li><strong>Don't plead guilty</strong> at your first court appearance without legal counsel.</li>
+              <li><strong className="text-climate-red">Stay calm.</strong> Don't resist physically. Physical resistance is a separate crime.</li>
+              <li><strong className="text-climate-red">State your rights clearly:</strong> "I am exercising my First Amendment right to protest. I want to speak to a lawyer."</li>
+              <li><strong className="text-climate-red">Remain silent.</strong> Don't answer questions except to ask: "Am I under arrest? Am I free to go?"</li>
+              <li><strong className="text-climate-red">Ask for a lawyer immediately.</strong> Say: "I want to speak to a lawyer" repeatedly if necessary.</li>
+              <li><strong className="text-climate-red">Document everything.</strong> Officer names, badge numbers, what was said, witnesses present.</li>
+              <li><strong className="text-climate-red">Use your one phone call.</strong> Call a lawyer, legal aid, or trusted contact.</li>
+              <li><strong className="text-climate-red">Don't sign anything</strong> without consulting with a lawyer first.</li>
+              <li><strong className="text-climate-red">Don't plead guilty</strong> at your first court appearance without legal counsel.</li>
             </ol>
           </section>
 
@@ -208,12 +208,12 @@ export default function KnowYourRightsPage() {
               <li><strong>Video Evidence:</strong> Record police encounters (legal in most public places)</li>
             </ul>
             <p className="text-lg leading-relaxed mb-4">
-              <strong>If your phone is confiscated:</strong> Use cloud backup, send videos to trusted contacts immediately, or livestream to protect evidence.
+              <strong className="text-climate-red">If your phone is confiscated:</strong> Use cloud backup, send videos to trusted contacts immediately, or livestream to protect evidence.
             </p>
           </section>
 
-          <section className="bg-climate-red bg-opacity-10 p-8 rounded-lg">
-            <h2 className="text-2xl font-bold text-climate-cream mb-4">Download LibertyGuard for Complete Rights Protection</h2>
+          <section className="p-8 rounded-lg border-2 border-climate-red">
+            <h2 className="text-2xl font-bold text-climate-red mb-4">Download LibertyGuard for Complete Rights Protection</h2>
             <p className="text-lg leading-relaxed mb-6">
               The LibertyGuard app provides real-time legal protection and emergency protocols:
             </p>
@@ -230,7 +230,7 @@ export default function KnowYourRightsPage() {
                 href="https://apps.apple.com/search?term=LibertyGuard" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="inline-block bg-climate-cream text-climate-black px-8 py-4 rounded-full text-xl font-bold hover:bg-gray-200 transition-colors mb-4"
+                className="inline-block bg-climate-red text-climate-cream px-8 py-4 rounded-full text-xl font-bold hover:bg-red-700 transition-colors mb-4"
               >
                 DOWNLOAD LIBERTYGUARD FREE (7-Day Trial)
               </a>
@@ -241,8 +241,8 @@ export default function KnowYourRightsPage() {
           </section>
 
           <div className="mt-12 space-y-4">
-            <div className="bg-climate-red bg-opacity-10 p-6 rounded-lg mb-8">
-              <h3 className="text-xl font-bold text-climate-cream mb-4">Related Guides</h3>
+            <div className="p-6 rounded-lg mb-8 border-2 border-climate-red">
+              <h3 className="text-xl font-bold text-climate-red mb-4">Related Guides</h3>
               <ul className="space-y-3">
                 <li>
                   <Link href="/protest-safety" className="text-climate-cream hover:text-climate-red transition-colors underline">
@@ -252,12 +252,9 @@ export default function KnowYourRightsPage() {
                 </li>
               </ul>
             </div>
-            <div className="text-center space-y-4">
-              <Link href="/protest-safety" className="text-climate-red hover:text-climate-cream transition-colors underline block">
-                ← Back to Protest Safety Guide
-              </Link>
-              <Link href="/" className="text-climate-cream hover:text-climate-red transition-colors underline block">
-                Back to Home
+            <div className="text-center mt-12">
+              <Link href="/" className="bg-climate-red text-climate-cream px-8 py-3 rounded-full text-lg font-bold hover:bg-red-700 transition-colors">
+                BACK TO HOME
               </Link>
             </div>
           </div>

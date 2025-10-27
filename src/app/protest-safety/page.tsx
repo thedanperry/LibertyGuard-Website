@@ -17,13 +17,13 @@ export default function ProtestSafetyPage() {
         
         <div className="text-center mb-8">
           <p className="text-climate-cream text-xl font-bold mb-2">Know Your Rights. Stay Safe. Document Everything.</p>
-          <p className="text-climate-cream text-lg opacity-75">Complete guide to protest safety, legal rights, and emergency protocols</p>
+          <p className="text-climate-cream text-lg opacity-75">Complete 2025 guide to protest safety, legal rights, and emergency protocols</p>
         </div>
 
-        <div className="bg-climate-red bg-opacity-10 p-6 rounded-lg mb-8">
-          <p className="text-climate-cream text-lg font-bold mb-2"><strong>Critical:</strong> Read this before your next protest</p>
+        <div className="p-6 rounded-lg mb-8 border-2 border-climate-red">
+          <p className="text-climate-cream text-lg font-bold mb-2"><strong className="text-climate-red">Critical:</strong> Read this before your next protest</p>
           <p className="text-climate-cream">
-            People get arrested. People get injured. People face serious legal consequences. This guide gives you the knowledge to protect yourself when things go wrong. <strong>No theory. Just practical, actionable information.</strong>
+            People get arrested. People get injured. People face serious legal consequences. This guide gives you the knowledge to protect yourself when things go wrong. <strong className="text-climate-red">No theory. Just practical, actionable information.</strong>
           </p>
         </div>
 
@@ -31,10 +31,10 @@ export default function ProtestSafetyPage() {
           <section>
             <h2 className="text-2xl font-bold text-climate-red mb-4">Your Rights Are Under Attack. Here's How to Protect Them</h2>
             <p className="text-lg leading-relaxed mb-4">
-              The Constitution guarantees your right to peaceful assembly. But those words on paper won't help you if you don't know how to exercise them safely. <strong>This guide could save you from arrest, injury, or legal trouble.</strong>
+              The Constitution guarantees your right to peaceful assembly. But those words on paper won't help you if you don't know how to exercise them safely. <strong className="text-climate-red">This guide could save you from arrest, injury, or legal trouble.</strong>
             </p>
             <p className="text-lg leading-relaxed mb-4">
-              <strong>Your rights include:</strong>
+              <strong className="text-climate-red">Your rights include:</strong>
             </p>
             <ul className="list-disc list-inside space-y-2 ml-4 mb-6">
               <li>Right to peaceful assembly in public spaces</li>
@@ -45,7 +45,7 @@ export default function ProtestSafetyPage() {
               <li>Right to remain silent until your lawyer arrives</li>
             </ul>
             <p className="text-lg leading-relaxed mb-4">
-              <strong>Important:</strong> These rights apply to peaceful protests on public property. Permits may be required for large gatherings or marches on public streets.
+              <strong className="text-climate-red">Important:</strong> These rights apply to peaceful protests on public property. Permits may be required for large gatherings or marches on public streets.
             </p>
           </section>
 
@@ -92,7 +92,7 @@ export default function ProtestSafetyPage() {
           <section>
             <h2 className="text-2xl font-bold text-climate-red mb-4">If You're Arrested: Know Your Rights</h2>
             <p className="text-lg leading-relaxed mb-4">
-              <strong>DO:</strong>
+              <strong className="text-climate-red">DO:</strong>
             </p>
             <ul className="list-disc list-inside space-y-2 ml-4 mb-4">
               <li>Stay calm and don't resist physically</li>
@@ -105,7 +105,7 @@ export default function ProtestSafetyPage() {
               <li>Document everything - police badge numbers, witnesses, incidents</li>
             </ul>
             <p className="text-lg leading-relaxed mb-4">
-              <strong>DON'T:</strong>
+              <strong className="text-climate-red">DON'T:</strong>
             </p>
             <ul className="list-disc list-inside space-y-2 ml-4 mb-4">
               <li>Run from police (evading arrest is a crime)</li>
@@ -144,9 +144,9 @@ export default function ProtestSafetyPage() {
               <li><strong>Property damage:</strong> Photos of damaged property or belongings</li>
               <li><strong>Video evidence:</strong> Record police encounters (legal in public spaces in most states)</li>
             </ul>
-            <div className="bg-climate-red bg-opacity-10 p-6 rounded-lg mb-4">
+            <div className="p-6 rounded-lg mb-4 border-2 border-climate-red">
               <p className="text-climate-cream text-lg leading-relaxed">
-                <strong>Legal Note:</strong> You have the right to record police activity in public spaces in most jurisdictions. However, laws vary by state. Check local laws before recording. If you're arrested, your phone may be confiscated, so cloud backup is essential.
+                <strong className="text-climate-red">Legal Note:</strong> You have the right to record police activity in public spaces in most jurisdictions. However, laws vary by state. Check local laws before recording. If you're arrested, your phone may be confiscated, so cloud backup is essential.
               </p>
             </div>
           </section>
@@ -167,8 +167,8 @@ export default function ProtestSafetyPage() {
             </ul>
           </section>
 
-          <section className="bg-climate-red bg-opacity-10 p-8 rounded-lg">
-            <h2 className="text-2xl font-bold text-climate-cream mb-4">Download LibertyGuard for Complete Protection</h2>
+          <section className="p-8 rounded-lg border-2 border-climate-red">
+            <h2 className="text-2xl font-bold text-climate-red mb-4">Download LibertyGuard for Complete Protection</h2>
             <p className="text-lg leading-relaxed mb-6">
               The LibertyGuard app provides real-time protection during protests and civil unrest:
             </p>
@@ -186,7 +186,7 @@ export default function ProtestSafetyPage() {
                 href="https://apps.apple.com/search?term=LibertyGuard" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="inline-block bg-climate-cream text-climate-black px-8 py-4 rounded-full text-xl font-bold hover:bg-gray-200 transition-colors mb-4"
+                className="inline-block bg-climate-red text-climate-cream px-8 py-4 rounded-full text-xl font-bold hover:bg-red-700 transition-colors mb-4"
               >
                 DOWNLOAD LIBERTYGUARD FREE (7-Day Trial)
               </a>
@@ -210,8 +210,8 @@ export default function ProtestSafetyPage() {
           </section>
 
           <div className="mt-12 space-y-4">
-            <div className="bg-climate-red bg-opacity-10 p-6 rounded-lg mb-8">
-              <h3 className="text-xl font-bold text-climate-cream mb-4">Related Guides</h3>
+            <div className="p-6 rounded-lg mb-8 border-2 border-climate-red">
+              <h3 className="text-xl font-bold text-climate-red mb-4">Related Guides</h3>
               <ul className="space-y-3">
                 <li>
                   <Link href="/know-your-rights" className="text-climate-cream hover:text-climate-red transition-colors underline">
@@ -221,9 +221,9 @@ export default function ProtestSafetyPage() {
                 </li>
               </ul>
             </div>
-            <div className="text-center">
-              <Link href="/" className="text-climate-red hover:text-climate-cream transition-colors underline">
-                ← Back to Home
+            <div className="text-center mt-12">
+              <Link href="/" className="bg-climate-red text-climate-cream px-8 py-3 rounded-full text-lg font-bold hover:bg-red-700 transition-colors">
+                BACK TO HOME
               </Link>
             </div>
           </div>
