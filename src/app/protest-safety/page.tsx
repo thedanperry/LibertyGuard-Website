@@ -54,37 +54,37 @@ export default function ProtestSafetyPage() {
             <p className="text-lg leading-relaxed mb-4">
               Being prepared can make the difference between staying safe and facing serious consequences. Here's your essential protest safety checklist:
             </p>
-            <div className="bg-climate-red bg-opacity-10 p-6 rounded-lg mb-6">
+            <div className="mb-6">
               <h3 className="text-xl font-bold text-climate-red mb-3">Essential Items:</h3>
-              <ul className="space-y-2">
-                <li>✅ <strong>Water:</strong> Stay hydrated - bring multiple water bottles</li>
-                <li>✅ <strong>Identification:</strong> Driver's license or ID (but know your right to remain silent)</li>
-                <li>✅ <strong>Phone:</strong> Fully charged with emergency contacts programmed</li>
-                <li>✅ <strong>Emergency beacon app:</strong> One-tap alert that sends location to trusted contacts</li>
-                <li>✅ <strong>Comfortable shoes:</strong> Protect your feet - running shoes recommended</li>
-                <li>✅ <strong>Weather protection:</strong> Rain gear, sun protection as needed</li>
-                <li>✅ <strong>Cash:</strong> Small bills for food, transportation, legal aid</li>
-                <li>✅ <strong>Legal aid hotline:</strong> Local legal aid organization phone number</li>
-                <li>✅ <strong>First aid supplies:</strong> Bandages, antiseptic, pain relief</li>
-                <li>✅ <strong>Emergency contact info:</strong> Written down (phone may be confiscated)</li>
+              <ul className="list-disc list-inside space-y-2 ml-4">
+                <li><strong>Water:</strong> Stay hydrated - bring multiple water bottles</li>
+                <li><strong>Identification:</strong> Driver's license or ID (but know your right to remain silent)</li>
+                <li><strong>Phone:</strong> Fully charged with emergency contacts programmed</li>
+                <li><strong>Emergency beacon app:</strong> One-tap alert that sends location to trusted contacts</li>
+                <li><strong>Comfortable shoes:</strong> Protect your feet - running shoes recommended</li>
+                <li><strong>Weather protection:</strong> Rain gear, sun protection as needed</li>
+                <li><strong>Cash:</strong> Small bills for food, transportation, legal aid</li>
+                <li><strong>Legal aid hotline:</strong> Local legal aid organization phone number</li>
+                <li><strong>First aid supplies:</strong> Bandages, antiseptic, pain relief</li>
+                <li><strong>Emergency contact info:</strong> Written down (phone may be confiscated)</li>
               </ul>
             </div>
-            <div className="bg-climate-red bg-opacity-10 p-6 rounded-lg mb-6">
+            <div className="mb-6">
               <h3 className="text-xl font-bold text-climate-red mb-3">Documentation Equipment:</h3>
-              <ul className="space-y-2">
-                <li>✅ <strong>Mobile phone:</strong> Fully charged, backup battery if possible</li>
-                <li>✅ <strong>Cloud backup:</strong> Photos/videos auto-sync to cloud</li>
-                <li>✅ <strong>Notepad:</strong> Pen and paper for notes, badges, events</li>
-                <li>✅ <strong>Emergency documentation app:</strong> Instantly capture incidents with timestamp and location</li>
+              <ul className="list-disc list-inside space-y-2 ml-4">
+                <li><strong>Mobile phone:</strong> Fully charged, backup battery if possible</li>
+                <li><strong>Cloud backup:</strong> Photos/videos auto-sync to cloud</li>
+                <li><strong>Notepad:</strong> Pen and paper for notes, badges, events</li>
+                <li><strong>Emergency documentation app:</strong> Instantly capture incidents with timestamp and location</li>
               </ul>
             </div>
-            <div className="bg-red-900 bg-opacity-30 p-6 rounded-lg mb-6">
+            <div className="mb-6">
               <h3 className="text-xl font-bold text-climate-red mb-3">⚠️ What NOT to Bring:</h3>
-              <ul className="space-y-2">
-                <li>❌ <strong>Weapons:</strong> Firearms, knives, or any weapons (illegal at most protests)</li>
-                <li>❌ <strong>Controlled substances:</strong> Drugs or alcohol</li>
-                <li>❌ <strong>Face masks (where illegal):</strong> Check local laws on mask mandates</li>
-                <li>❌ <strong>Anything that could be used as a weapon:</strong> Tools, bats, etc.</li>
+              <ul className="list-disc list-inside space-y-2 ml-4">
+                <li><strong>Weapons:</strong> Firearms, knives, or any weapons (illegal at most protests)</li>
+                <li><strong>Controlled substances:</strong> Drugs or alcohol</li>
+                <li><strong>Face masks (where illegal):</strong> Check local laws on mask mandates</li>
+                <li><strong>Anything that could be used as a weapon:</strong> Tools, bats, etc.</li>
               </ul>
             </div>
           </section>
@@ -145,7 +145,7 @@ export default function ProtestSafetyPage() {
               <li><strong>Video evidence:</strong> Record police encounters (legal in public spaces in most states)</li>
             </ul>
             <div className="bg-climate-red bg-opacity-10 p-6 rounded-lg mb-4">
-              <p className="text-lg leading-relaxed">
+              <p className="text-climate-cream text-lg leading-relaxed">
                 <strong className="text-climate-red">Legal Note:</strong> You have the right to record police activity in public spaces in most jurisdictions. However, laws vary by state. Check local laws before recording. If you're arrested, your phone may be confiscated, so cloud backup is essential.
               </p>
             </div>
