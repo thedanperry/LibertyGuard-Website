@@ -213,11 +213,11 @@ export default function KnowYourRightsPage() {
           </section>
 
           <section className="p-8 rounded-lg bg-climate-red bg-opacity-10">
-            <h2 className="text-2xl font-bold text-climate-red mb-4">Download LibertyGuard for Complete Rights Protection</h2>
-            <p className="text-lg leading-relaxed mb-6">
+            <h2 className="text-2xl font-bold text-climate-cream mb-4">Download LibertyGuard for Complete Rights Protection</h2>
+            <p className="text-lg leading-relaxed mb-6 text-climate-cream">
               The LibertyGuard app provides real-time legal protection and emergency protocols:
             </p>
-            <ul className="list-disc list-inside space-y-2 ml-4 mb-6">
+            <ul className="list-disc list-inside space-y-2 ml-4 mb-6 text-climate-cream">
               <li><strong>Emergency Beacon:</strong> One-tap alert sends your location to emergency contacts instantly</li>
               <li><strong>Legal Rights Guide:</strong> Complete offline guide to your constitutional rights</li>
               <li><strong>Documentation Tools:</strong> Capture incidents with timestamp and GPS coordinates</li>

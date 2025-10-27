@@ -21,9 +21,9 @@ export default function ProtestSafetyPage() {
         </div>
 
         <div className="p-6 rounded-lg mb-8 bg-climate-red bg-opacity-10">
-          <p className="text-climate-cream text-lg font-bold mb-2"><strong className="text-climate-red">Critical:</strong> Read this before your next protest</p>
+          <p className="text-climate-cream text-lg font-bold mb-2"><strong className="text-climate-cream">Critical:</strong> Read this before your next protest</p>
           <p className="text-climate-cream">
-            People get arrested. People get injured. People face serious legal consequences. This guide gives you the knowledge to protect yourself when things go wrong. <strong className="text-climate-red">No theory. Just practical, actionable information.</strong>
+            People get arrested. People get injured. People face serious legal consequences. This guide gives you the knowledge to protect yourself when things go wrong. <strong className="text-climate-cream">No theory. Just practical, actionable information.</strong>
           </p>
         </div>
 
@@ -146,7 +146,7 @@ export default function ProtestSafetyPage() {
             </ul>
             <div className="p-6 rounded-lg mb-4 bg-climate-red bg-opacity-10">
               <p className="text-climate-cream text-lg leading-relaxed">
-                <strong className="text-climate-red">Legal Note:</strong> You have the right to record police activity in public spaces in most jurisdictions. However, laws vary by state. Check local laws before recording. If you're arrested, your phone may be confiscated, so cloud backup is essential.
+                <strong className="text-climate-cream">Legal Note:</strong> You have the right to record police activity in public spaces in most jurisdictions. However, laws vary by state. Check local laws before recording. If you're arrested, your phone may be confiscated, so cloud backup is essential.
               </p>
             </div>
           </section>
@@ -168,11 +168,11 @@ export default function ProtestSafetyPage() {
           </section>
 
           <section className="p-8 rounded-lg bg-climate-red bg-opacity-10">
-            <h2 className="text-2xl font-bold text-climate-red mb-4">Download LibertyGuard for Complete Protection</h2>
-            <p className="text-lg leading-relaxed mb-6">
+            <h2 className="text-2xl font-bold text-climate-cream mb-4">Download LibertyGuard for Complete Protection</h2>
+            <p className="text-lg leading-relaxed mb-6 text-climate-cream">
               The LibertyGuard app provides real-time protection during protests and civil unrest:
             </p>
-            <ul className="list-disc list-inside space-y-2 ml-4 mb-6">
+            <ul className="list-disc list-inside space-y-2 ml-4 mb-6 text-climate-cream">
               <li><strong>Emergency Beacon:</strong> One-tap alert sends location to emergency contacts instantly</li>
               <li><strong>Legal Rights Guide:</strong> Know your constitutional rights at all times</li>
               <li><strong>Documentation Tools:</strong> Capture incidents with timestamp and location</li>
