@@ -139,9 +139,9 @@ export default function KnowYourRightsPage() {
 
           <section>
             <h2 className="text-2xl font-bold text-climate-red mb-4">What to Say and Not Say to Police</h2>
-            <div className="bg-climate-red bg-opacity-10 p-6 rounded-lg mb-6">
-              <h3 className="text-xl font-bold text-climate-red mb-3">✅ SAY THESE THINGS:</h3>
-              <ul className="space-y-2">
+            <div className="mb-6">
+              <h3 className="text-xl font-bold text-climate-red mb-3">SAY THESE THINGS:</h3>
+              <ul className="list-disc list-inside space-y-2 ml-4">
                 <li>"I am exercising my First Amendment right to protest"</li>
                 <li>"I want to speak to a lawyer"</li>
                 <li>"Am I under arrest? Am I free to go?"</li>
@@ -150,9 +150,9 @@ export default function KnowYourRightsPage() {
                 <li>"I have the right to record this interaction" (if recording)</li>
               </ul>
             </div>
-            <div className="bg-red-900 bg-opacity-30 p-6 rounded-lg mb-6">
-              <h3 className="text-xl font-bold text-climate-red mb-3">❌ DON'T SAY THESE THINGS:</h3>
-              <ul className="space-y-2">
+            <div className="mb-6">
+              <h3 className="text-xl font-bold text-climate-red mb-3">DON'T SAY THESE THINGS:</h3>
+              <ul className="list-disc list-inside space-y-2 ml-4">
                 <li>Don't answer questions without a lawyer present</li>
                 <li>Don't volunteer information about your activities</li>
                 <li>Don't sign anything without legal counsel</li>
