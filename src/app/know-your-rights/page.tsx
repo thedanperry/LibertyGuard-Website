@@ -252,10 +252,7 @@ export default function KnowYourRightsPage() {
                 </li>
               </ul>
             </div>
-            <div className="text-center space-y-4">
-              <Link href="/protest-safety" className="text-climate-cream hover:text-climate-red transition-colors underline block">
-                ← Back to Protest Safety Guide
-              </Link>
+            <div className="text-center mt-12">
               <Link href="/" className="bg-climate-red text-climate-cream px-8 py-3 rounded-full text-lg font-bold hover:bg-red-700 transition-colors">
                 BACK TO HOME
               </Link>
