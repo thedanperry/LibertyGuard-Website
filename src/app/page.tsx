@@ -12,22 +12,36 @@ export default function HomePage() {
         <div className="relative z-10 text-center max-w-6xl mx-auto px-6">
           {/* App Label - bigger to match GET WATCHTOWER */}
           <div className="mb-8">
-            <p className="font-climate-bold text-5xl md:text-8xl text-climate-cream tracking-wide leading-tight whitespace-pre-line">
-              {`JOIN THE\nRESISTANCE`}
-            </p>
+            <a 
+              href="https://apps.apple.com/search?term=LibertyGuard" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="cursor-pointer hover:opacity-80 transition-opacity"
+            >
+              <p className="font-climate-bold text-5xl md:text-8xl text-climate-cream tracking-wide leading-tight whitespace-pre-line">
+                {`JOIN THE\nRESISTANCE`}
+              </p>
+            </a>
           </div>
 
           {/* Logo only */}
           <div className="relative mb-8">
-            <div className="w-40 h-40 md:w-[28rem] md:h-[28rem] mx-auto relative">
-              <div className="absolute inset-0 flex items-center justify-center">
-                <img
-                  src="/images/libertyguard-logo.png"
-                  alt="LibertyGuard Logo"
-                  className="w-36 h-36 md:w-[24rem] md:h-[24rem] mx-auto opacity-90"
-                />
+            <a 
+              href="https://apps.apple.com/search?term=LibertyGuard" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="cursor-pointer hover:opacity-80 transition-opacity"
+            >
+              <div className="w-40 h-40 md:w-[28rem] md:h-[28rem] mx-auto relative">
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <img
+                    src="/images/libertyguard-logo.png"
+                    alt="LibertyGuard Logo"
+                    className="w-36 h-36 md:w-[24rem] md:h-[24rem] mx-auto opacity-90"
+                  />
+                </div>
               </div>
-            </div>
+            </a>
           </div>
 
 
