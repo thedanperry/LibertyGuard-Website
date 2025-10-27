@@ -245,6 +245,12 @@ export default function LegalDisclaimer() {
             </p>
           </div>
         </div>
+
+        <div className="mt-12 text-center">
+          <Link href="/" className="text-climate-red hover:text-climate-cream transition-colors font-bold text-lg">
+            ← Back to Home
+          </Link>
+        </div>
       </div>
     </div>
   );
