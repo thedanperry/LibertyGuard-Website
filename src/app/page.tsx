@@ -58,15 +58,15 @@ export default function HomePage() {
           <div className="flex flex-col md:flex-row items-center justify-center gap-2 md:gap-4 px-8 md:px-16 lg:px-24">
             <div className="text-center md:text-left md:max-w-md lg:max-w-lg">
               {/* Bullet points on separate lines with left margin */}
-              <div className="text-climate-cream text-lg md:text-xl mb-8 space-y-2 ml-4 md:ml-6">
-                <p>• <strong className="text-climate-red">Real-time threat intelligence</strong> - See what's happening before it hits the news</p>
-                <p>• <strong className="text-climate-red">One-tap emergency beacon</strong> - Alert trusted contacts with your exact location instantly</p>
-                <p>• <strong className="text-climate-red">35+ resistance guides</strong> - Protest protocols, legal rights, medical care, all offline</p>
-                <p>• <strong className="text-climate-red">Protest coordination</strong> - Find local events, organize actions, stay connected</p>
-                <p>• <strong className="text-climate-red">Message generator</strong> - 100+ powerful protest signs and chants</p>
-                <p>• <strong className="text-climate-red">Encrypted community messaging</strong> - Secure communication when it matters most</p>
-                <p>• <strong className="text-climate-red">Democracy health dashboard</strong> - Track threats to free speech and rights</p>
-                <p>• <strong className="text-climate-red">Legal protection</strong> - Know your rights, document incidents, stay safe</p>
+              <div className="text-climate-cream text-lg md:text-xl mb-8 space-y-2">
+                <p>• <strong className="text-climate-red">Real-time threat intelligence</strong> — See what's happening before it hits the news</p>
+                <p>• <strong className="text-climate-red">One-tap emergency beacon</strong> — Alert trusted contacts with your exact location instantly</p>
+                <p>• <strong className="text-climate-red">35+ resistance guides</strong> — Protest protocols, legal rights, medical care, all offline</p>
+                <p>• <strong className="text-climate-red">Protest coordination</strong> — Find local events, organize actions, stay connected</p>
+                <p>• <strong className="text-climate-red">Message generator</strong> — 100+ powerful protest signs and chants</p>
+                <p>• <strong className="text-climate-red">Encrypted community messaging</strong> — Secure communication when it matters most</p>
+                <p>• <strong className="text-climate-red">Democracy health dashboard</strong> — Track threats to free speech and rights</p>
+                <p>• <strong className="text-climate-red">Legal protection</strong> — Know your rights, document incidents, stay safe</p>
               </div>
 
               <div className="space-y-4">
@@ -78,7 +78,7 @@ export default function HomePage() {
                 >
                   DOWNLOAD FOR iOS
                 </a>
-                <div className="text-climate-cream text-sm space-y-1 ml-4 md:ml-6">
+                <div className="text-climate-cream text-sm space-y-1">
                   <p>• Free version available</p>
                   <p>• Pro: $4.99/month or $39.99/year</p>
                 </div>
@@ -193,6 +193,29 @@ export default function HomePage() {
                 </p>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Resources Section */}
+      <div className="bg-climate-red py-16 relative overflow-hidden">
+        <div className="max-w-6xl mx-auto px-6 text-center relative z-10">
+          <h2 className="font-climate-bold text-4xl md:text-6xl text-climate-cream mb-8">RESOURCES & GUIDES</h2>
+          <p className="text-climate-cream text-xl mb-8">Essential guides to protect your rights and stay safe during protests</p>
+          
+          <div className="flex flex-wrap justify-center gap-4">
+            <a 
+              href="/protest-safety"
+              className="bg-climate-black text-climate-cream px-6 py-3 rounded-full text-lg font-bold hover:bg-gray-900 transition-colors inline-block"
+            >
+              Protest Safety Guide
+            </a>
+            <a 
+              href="/know-your-rights"
+              className="bg-climate-black text-climate-cream px-6 py-3 rounded-full text-lg font-bold hover:bg-gray-900 transition-colors inline-block"
+            >
+              Know Your Rights
+            </a>
           </div>
         </div>
       </div>
