@@ -212,10 +212,14 @@ export default function ProtestSafetyPage() {
           <div className="mt-12 space-y-4">
             <div className="bg-climate-red bg-opacity-10 p-6 rounded-lg mb-8">
               <h3 className="text-xl font-bold text-climate-cream mb-4">Related Guides</h3>
-              <Link href="/know-your-rights" className="text-climate-cream hover:text-climate-red transition-colors underline block mb-2">
-                → Know Your Rights: Complete Legal Guide for Activists
-              </Link>
-              <p className="text-climate-cream text-sm ml-4 mb-4">Learn your constitutional rights, what to say to police, and how to protect yourself legally</p>
+              <ul className="space-y-3">
+                <li>
+                  <Link href="/know-your-rights" className="text-climate-cream hover:text-climate-red transition-colors underline">
+                    → Know Your Rights: Complete Legal Guide for Activists
+                  </Link>
+                  <p className="text-climate-cream text-sm ml-4">Learn your constitutional rights, what to say to police, and how to protect yourself legally</p>
+                </li>
+              </ul>
             </div>
             <div className="text-center space-y-4 mt-12">
               <Link href="/know-your-rights" className="bg-climate-red text-climate-cream px-8 py-3 rounded-full text-lg font-bold hover:bg-red-700 transition-colors">
