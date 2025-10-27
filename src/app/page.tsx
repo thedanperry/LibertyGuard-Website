@@ -58,15 +58,15 @@ export default function HomePage() {
           <div className="flex flex-col md:flex-row items-center justify-center gap-2 md:gap-4 px-8 md:px-16 lg:px-24">
             <div className="text-center md:text-left md:max-w-md lg:max-w-lg">
               {/* Bullet points on separate lines with left margin */}
-              <div className="text-climate-cream text-lg md:text-xl mb-8 space-y-2">
-                <p>• <strong className="text-climate-red">Real-time threat intelligence</strong> — See what's happening before it hits the news</p>
-                <p>• <strong className="text-climate-red">One-tap emergency beacon</strong> — Alert trusted contacts with your exact location instantly</p>
-                <p>• <strong className="text-climate-red">35+ resistance guides</strong> — Protest protocols, legal rights, medical care, all offline</p>
-                <p>• <strong className="text-climate-red">Protest coordination</strong> — Find local events, organize actions, stay connected</p>
-                <p>• <strong className="text-climate-red">Message generator</strong> — 100+ powerful protest signs and chants</p>
-                <p>• <strong className="text-climate-red">Encrypted community messaging</strong> — Secure communication when it matters most</p>
-                <p>• <strong className="text-climate-red">Democracy health dashboard</strong> — Track threats to free speech and rights</p>
-                <p>• <strong className="text-climate-red">Legal protection</strong> — Know your rights, document incidents, stay safe</p>
+              <div className="text-climate-cream text-lg md:text-xl mb-8 space-y-2 ml-4 md:ml-6">
+                <p>• Real-time threat intelligence - See what's happening before it hits the news</p>
+                <p>• One-tap emergency beacon - Alert trusted contacts with your exact location instantly</p>
+                <p>• 35+ resistance guides - Protest protocols, legal rights, medical care, all offline</p>
+                <p>• Protest coordination - Find local events, organize actions, stay connected</p>
+                <p>• Message generator - 100+ powerful protest signs and chants</p>
+                <p>• Encrypted community messaging - Secure communication when it matters most</p>
+                <p>• Democracy health dashboard - Track threats to free speech and rights</p>
+                <p>• Legal protection - Know your rights, document incidents, stay safe</p>
               </div>
 
               <div className="space-y-4">
@@ -78,7 +78,7 @@ export default function HomePage() {
                 >
                   DOWNLOAD FOR iOS
                 </a>
-                <div className="text-climate-cream text-sm space-y-1">
+                <div className="text-climate-cream text-sm space-y-1 ml-4 md:ml-6">
                   <p>• Free version available</p>
                   <p>• Pro: $4.99/month or $39.99/year</p>
                 </div>
