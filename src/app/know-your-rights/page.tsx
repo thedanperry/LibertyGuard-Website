@@ -212,7 +212,7 @@ export default function KnowYourRightsPage() {
             </p>
           </section>
 
-          <section className="p-8 rounded-lg border-2 border-climate-red">
+          <section className="p-8 rounded-lg bg-climate-red bg-opacity-10">
             <h2 className="text-2xl font-bold text-climate-red mb-4">Download LibertyGuard for Complete Rights Protection</h2>
             <p className="text-lg leading-relaxed mb-6">
               The LibertyGuard app provides real-time legal protection and emergency protocols:
@@ -241,8 +241,8 @@ export default function KnowYourRightsPage() {
           </section>
 
           <div className="mt-12 space-y-4">
-            <div className="p-6 rounded-lg mb-8 border-2 border-climate-red">
-              <h3 className="text-xl font-bold text-climate-red mb-4">Related Guides</h3>
+            <div className="bg-climate-red bg-opacity-10 p-6 rounded-lg mb-8">
+              <h3 className="text-xl font-bold text-climate-cream mb-4">Related Guides</h3>
               <ul className="space-y-3">
                 <li>
                   <Link href="/protest-safety" className="text-climate-cream hover:text-climate-red transition-colors underline">
@@ -253,10 +253,10 @@ export default function KnowYourRightsPage() {
               </ul>
             </div>
             <div className="text-center space-y-4 mt-12">
-              <Link href="/protest-safety" className="bg-climate-red text-climate-cream px-8 py-3 rounded-full text-lg font-bold hover:bg-red-700 transition-colors">
+              <Link href="/protest-safety" className="bg-climate-red text-climate-cream px-8 py-3 rounded-full text-lg font-bold hover:bg-red-700 transition-colors block">
                 BACK TO PROTEST SAFETY GUIDE
               </Link>
-              <Link href="/" className="bg-climate-red text-climate-cream px-8 py-3 rounded-full text-lg font-bold hover:bg-red-700 transition-colors">
+              <Link href="/" className="bg-climate-red text-climate-cream px-8 py-3 rounded-full text-lg font-bold hover:bg-red-700 transition-colors block">
                 BACK TO HOME
               </Link>
             </div>
