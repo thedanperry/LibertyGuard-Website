@@ -168,7 +168,7 @@ export default function ProtestSafetyPage() {
           </section>
 
           <section className="bg-climate-red bg-opacity-10 p-8 rounded-lg">
-            <h2 className="text-2xl font-bold text-climate-red mb-4">Download LibertyGuard for Complete Protection</h2>
+            <h2 className="text-2xl font-bold text-climate-cream mb-4">Download LibertyGuard for Complete Protection</h2>
             <p className="text-lg leading-relaxed mb-6">
               The LibertyGuard app provides real-time protection during protests and civil unrest:
             </p>
