@@ -215,7 +215,7 @@ export default function ProtestSafetyPage() {
               <ul className="space-y-3">
                 <li>
                   <Link href="/know-your-rights" className="text-climate-cream hover:text-climate-red transition-colors underline">
-                    → Know Your Rights: Complete Legal Guide for Activists
+                    Know Your Rights: Complete Legal Guide for Activists
                   </Link>
                   <p className="text-climate-cream text-sm ml-4">Learn your constitutional rights, what to say to police, and how to protect yourself legally</p>
                 </li>

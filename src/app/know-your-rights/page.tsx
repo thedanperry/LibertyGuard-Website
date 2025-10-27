@@ -246,7 +246,7 @@ export default function KnowYourRightsPage() {
               <ul className="space-y-3">
                 <li>
                   <Link href="/protest-safety" className="text-climate-cream hover:text-climate-red transition-colors underline">
-                    → Protest Safety Guide: Complete Survival Protocol
+                    Protest Safety Guide: Complete Survival Protocol
                   </Link>
                   <p className="text-climate-cream text-sm ml-4">Learn what to bring, emergency protocols, and how to stay safe during protests</p>
                 </li>
