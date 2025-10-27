@@ -230,7 +230,7 @@ export default function KnowYourRightsPage() {
                 href="https://apps.apple.com/search?term=LibertyGuard" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="inline-block bg-climate-red text-climate-cream px-8 py-4 rounded-full text-xl font-bold hover:bg-red-700 transition-colors mb-4"
+                className="inline-block bg-climate-cream text-climate-black px-8 py-4 rounded-full text-xl font-bold hover:bg-opacity-90 transition-colors mb-4"
               >
                 DOWNLOAD LIBERTYGUARD FREE (7-Day Trial)
               </a>
