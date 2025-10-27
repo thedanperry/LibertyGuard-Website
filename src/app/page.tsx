@@ -34,13 +34,15 @@ export default function HomePage() {
           {/* Description - left justified */}
           <div className="text-left max-w-4xl mx-auto mb-16">
             <p className="text-climate-cream text-xl md:text-2xl leading-relaxed mb-4">
-              <span className="text-climate-red font-bold">LIBERTY GUARD</span> is your comprehensive resistance companion,
-              designed to keep you informed, organized, and safe while defending democratic rights.
+              <span className="text-climate-red font-bold">DEMOCRACY IS UNDER ATTACK.</span> You know it. We see it. Now you have the tools to defend it.
             </p>
 
+            <p className="text-climate-cream text-xl md:text-2xl leading-relaxed mb-4">
+              <span className="text-climate-red font-bold">LibertyGuard</span> is the resistance app they don't want you to have. Real-time threat monitoring, protest coordination, legal rights protection, and emergency protocols—all in your pocket, working offline when they shut down the networks.
+            </p>
+            
             <p className="text-climate-cream text-xl md:text-2xl leading-relaxed">
-              Whether you're monitoring threats to democracy, organizing protests, documenting civil rights violations, or preparing for civil unrest,
-              <span className="text-climate-red"> LibertyGuard provides the tools, knowledge, and real-time intelligence</span> you need to resist effectively and stay safe.
+              This isn't theory. This is the toolkit activists use to stay safe while defending democracy. <span className="text-climate-red font-bold">Download now. Free 7-day trial. No questions asked.</span>
             </p>
           </div>
         </div>
@@ -57,15 +59,14 @@ export default function HomePage() {
             <div className="text-center md:text-left md:max-w-md lg:max-w-lg">
               {/* Bullet points on separate lines with left margin */}
               <div className="text-climate-cream text-lg md:text-xl mb-8 space-y-2 ml-4 md:ml-6">
-                <p>• Democracy health monitoring</p>
-                <p>• Real-time threat alerts</p>
-                <p>• Protest event coordination</p>
-                <p>• Live community messaging</p>
-                <p>• Protest message generator</p>
-                <p>• Emergency beacon system</p>
-                <p>• 35+ resistance guides</p>
-                <p>• Community organizing tools</p>
-                <p>• Protection checklists</p>
+                <p>• <strong className="text-climate-red">Real-time threat intelligence</strong> - See what's happening before it hits the news</p>
+                <p>• <strong className="text-climate-red">One-tap emergency beacon</strong> - Alert trusted contacts with your exact location instantly</p>
+                <p>• <strong className="text-climate-red">35+ resistance guides</strong> - Protest protocols, legal rights, medical care, all offline</p>
+                <p>• <strong className="text-climate-red">Protest coordination</strong> - Find local events, organize actions, stay connected</p>
+                <p>• <strong className="text-climate-red">Message generator</strong> - 100+ powerful protest signs and chants</p>
+                <p>• <strong className="text-climate-red">Encrypted community messaging</strong> - Secure communication when it matters most</p>
+                <p>• <strong className="text-climate-red">Democracy health dashboard</strong> - Track threats to free speech and rights</p>
+                <p>• <strong className="text-climate-red">Legal protection</strong> - Know your rights, document incidents, stay safe</p>
               </div>
 
               <div className="space-y-4">
@@ -204,42 +205,42 @@ export default function HomePage() {
           <div className="grid md:grid-cols-2 gap-8 text-left max-w-5xl mx-auto">
             <div className="space-y-6">
               <div>
-                <h3 className="text-climate-red text-xl font-bold mb-2">🔥 DEMOCRACY HEALTH MONITOR</h3>
-                <p className="text-climate-cream">Real-time tracking of threats to free speech, electoral integrity, civil rights, press freedom, and judicial independence. See exactly when and how democracy is declining.</p>
+                <h3 className="text-climate-red text-xl font-bold mb-2">🔥 REAL-TIME THREAT INTELLIGENCE</h3>
+                <p className="text-climate-cream">See what's happening before it hits the news. AI-powered monitoring tracks government overreach, military movements, and civil unrest from multiple sources. You'll know when democracy is under attack.</p>
               </div>
               <div>
-                <h3 className="text-climate-red text-xl font-bold mb-2">🔥 THREAT INTELLIGENCE</h3>
-                <p className="text-climate-cream">Aggregated alerts from news sources, social media, and community reports. Intelligent filtering prioritizes domestic threats to democracy with confidence scoring.</p>
+                <h3 className="text-climate-red text-xl font-bold mb-2">🔥 ONE-TAP EMERGENCY BEACON</h3>
+                <p className="text-climate-cream">Press a button. Your exact location gets sent to emergency contacts instantly. GPS coordinates, map links, custom messages. One tap could save your life.</p>
               </div>
               <div>
-                <h3 className="text-climate-red text-xl font-bold mb-2">🔥 PROTEST COORDINATION</h3>
-                <p className="text-climate-cream">Find local protests, marches, and organizing events. Location-based search from Indivisible chapters, Eventbrite, and activist communities.</p>
+                <h3 className="text-climate-red text-xl font-bold mb-2">🔥 35+ RESISTANCE SURVIVAL GUIDES</h3>
+                <p className="text-climate-cream">Complete offline library: protest protocols, legal rights, improvised medicine, trauma care, community organizing. All cached locally—works when they shut down the networks.</p>
               </div>
               <div>
-                <h3 className="text-climate-red text-xl font-bold mb-2">🔥 LIVE MESSAGING</h3>
-                <p className="text-climate-cream">Secure, real-time community messaging with smart moderation. Connect with fellow activists, share updates, and coordinate actions. All messages are encrypted and stored locally for offline access.</p>
+                <h3 className="text-climate-red text-xl font-bold mb-2">🔥 ENCRYPTED COMMUNITY MESSAGING</h3>
+                <p className="text-climate-cream">Secure communication when it matters most. End-to-end encrypted messages with fellow activists. Share updates, coordinate actions, stay safe. All data stored locally for offline access.</p>
               </div>
             </div>
             <div className="space-y-6">
               <div>
-                <h3 className="text-climate-red text-xl font-bold mb-2">🔥 RESISTANCE SURVIVAL GUIDES</h3>
-                <p className="text-climate-cream">35+ guides including Protest Protocols, US Constitution, Improvised Medicine, Advanced Trauma Care, Legal Rights, and Community Organizing. All offline-accessible.</p>
+                <h3 className="text-climate-red text-xl font-bold mb-2">🔥 PROTEST COORDINATION</h3>
+                <p className="text-climate-cream">Find and join protests in your area. Location-based search from Indivisible chapters, Eventbrite, and activist communities. Organize actions, mobilize people, create change.</p>
               </div>
               <div>
                 <h3 className="text-climate-red text-xl font-bold mb-2">🔥 PROTEST MESSAGE GENERATOR</h3>
-                <p className="text-climate-cream">Generate powerful, witty, and impactful protest signs and chants. Random generation or by cause (climate, justice, democracy, etc.). 100+ researched messages with anti-authoritarian, anti-plutocracy, and pro-democracy themes.</p>
+                <p className="text-climate-cream">Need a powerful sign for your next march? Generate witty, impactful protest messages in seconds. 100+ researched chants and slogans. Anti-authoritarian. Pro-democracy. No names, no identifying details—completely safe.</p>
               </div>
               <div>
-                <h3 className="text-climate-red text-xl font-bold mb-2">🔥 EMERGENCY BEACON</h3>
-                <p className="text-climate-cream">One-tap emergency alert sends location and map links to pre-selected contacts. Automatic GPS coordinates and customizable messages for instant help when you need it most.</p>
+                <h3 className="text-climate-red text-xl font-bold mb-2">🔥 LEGAL RIGHTS PROTECTION</h3>
+                <p className="text-climate-cream">Know your rights at all times. Constitutional protections, arrest protocols, documentation procedures. Full legal guide works offline. Document incidents with timestamp and GPS coordinates.</p>
               </div>
               <div>
-                <h3 className="text-climate-red text-xl font-bold mb-2">🔥 PROTECTION CHECKLIST</h3>
-                <p className="text-climate-cream">Systematic preparedness tracking for protest safety gear, legal protection, first aid, communication tools, and emergency supplies. Customized for your household.</p>
+                <h3 className="text-climate-red text-xl font-bold mb-2">🔥 DEMOCRACY HEALTH DASHBOARD</h3>
+                <p className="text-climate-cream">Track threats to free speech, electoral integrity, civil rights, press freedom, and judicial independence. Real-time scoring shows exactly how healthy democracy is—and where it's declining.</p>
               </div>
               <div>
-                <h3 className="text-climate-red text-xl font-bold mb-2">🔥 PRIVACY & SECURITY</h3>
-                <p className="text-climate-cream">Local-first architecture, AES-256 encryption, zero data selling, minimal collection. Designed for activists facing surveillance and monitoring.</p>
+                <h3 className="text-climate-red text-xl font-bold mb-2">🔥 BUILT FOR PRIVACY</h3>
+                <p className="text-climate-cream">Local-first architecture. AES-256 encryption. Zero data selling. We built this for activists facing surveillance. Your data stays on your device. Your communication stays secure.</p>
               </div>
             </div>
           </div>

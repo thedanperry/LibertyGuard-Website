@@ -12,18 +12,26 @@ export default function ProtestSafetyPage() {
     <div className="min-h-screen bg-climate-black text-climate-cream">
       <div className="max-w-4xl mx-auto px-6 py-16">
         <h1 className="font-climate-bold text-4xl md:text-6xl text-climate-red text-center mb-8">
-          PROTEST SAFETY GUIDE 2025
+          HOW TO SURVIVE A PROTEST
         </h1>
         
         <div className="text-center mb-8">
-          <p className="text-climate-cream text-lg opacity-75">Complete Guide to Protecting Your Rights During Protests</p>
+          <p className="text-climate-cream text-xl font-bold mb-2">Know Your Rights. Stay Safe. Document Everything.</p>
+          <p className="text-climate-cream text-lg opacity-75">Complete 2025 guide to protest safety, legal rights, and emergency protocols</p>
+        </div>
+
+        <div className="bg-climate-red bg-opacity-10 p-6 rounded-lg mb-8">
+          <p className="text-climate-cream text-lg font-bold mb-2">⚠️ <strong>Critical:</strong> Read this before your next protest</p>
+          <p className="text-climate-cream">
+            People get arrested. People get injured. People face serious legal consequences. This guide gives you the knowledge to protect yourself when things go wrong. <strong className="text-climate-red">No theory. Just practical, actionable information.</strong>
+          </p>
         </div>
 
         <div className="space-y-8 text-climate-cream">
           <section>
-            <h2 className="text-2xl font-bold text-climate-red mb-4">Know Your Rights During Protests</h2>
+            <h2 className="text-2xl font-bold text-climate-red mb-4">Your Rights Are Under Attack. Here's How to Protect Them</h2>
             <p className="text-lg leading-relaxed mb-4">
-              When exercising your First Amendment right to protest, it's essential to understand your legal protections. The Constitution guarantees your right to peaceful assembly, but knowing how to exercise this right safely is crucial.
+              The Constitution guarantees your right to peaceful assembly. But those words on paper won't help you if you don't know how to exercise them safely. <strong className="text-climate-red">This guide could save you from arrest, injury, or legal trouble.</strong>
             </p>
             <p className="text-lg leading-relaxed mb-4">
               <strong className="text-climate-red">Your rights include:</strong>
