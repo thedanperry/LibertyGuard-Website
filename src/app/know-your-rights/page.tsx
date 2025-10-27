@@ -20,8 +20,8 @@ export default function KnowYourRightsPage() {
           <p className="text-climate-cream text-lg opacity-75">Complete 2025 legal guide for activists, protesters, and defenders of democracy</p>
         </div>
 
-        <div className="bg-climate-red bg-opacity-10 p-6 rounded-lg mb-8">
-          <p className="text-climate-cream text-lg font-bold mb-2"><strong>Critical:</strong> These are your legal rights</p>
+        <div className="p-6 rounded-lg mb-8 border-2 border-climate-red">
+          <p className="text-climate-cream text-lg font-bold mb-2"><strong className="text-climate-red">Critical:</strong> These are your legal rights</p>
           <p className="text-climate-cream">
             The Constitution protects your right to protest, but those protections only work if you <strong className="text-climate-red">know them, assert them, and document violations.</strong> This guide covers everything you need to know to protect yourself legally.
           </p>
