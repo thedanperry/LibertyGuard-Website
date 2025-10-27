@@ -225,7 +225,7 @@ export default function TermsPage() {
         </div>
 
         <div className="text-center mt-12">
-          <Link href="/" className="bg-climate-red text-climate-cream px-8 py-3 rounded-full text-lg font-bold hover:bg-red-700 transition-colors block">
+          <Link href="/" className="bg-climate-cream text-climate-red px-8 py-3 rounded-full text-lg font-bold hover:bg-opacity-90 transition-colors block">
             BACK TO HOME
           </Link>
         </div>
