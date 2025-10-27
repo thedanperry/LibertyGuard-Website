@@ -227,7 +227,7 @@ export default function KnowYourRightsPage() {
             </ul>
             <div className="text-center">
               <a 
-                href="https://apps.apple.com/search?term=LibertyGuard" 
+                href="https://apps.apple.com/us/app/libertyguard/id6753902370?platform=iphone" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="inline-block bg-climate-cream text-climate-black px-8 py-4 rounded-full text-xl font-bold hover:bg-opacity-90 transition-colors mb-4"

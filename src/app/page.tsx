@@ -13,7 +13,7 @@ export default function HomePage() {
           {/* App Label - bigger to match GET WATCHTOWER */}
           <div className="mb-8">
             <a 
-              href="https://apps.apple.com/search?term=LibertyGuard" 
+              href="https://apps.apple.com/us/app/libertyguard/id6753902370?platform=iphone" 
               target="_blank" 
               rel="noopener noreferrer"
               className="cursor-pointer hover:opacity-80 transition-opacity"
@@ -27,7 +27,7 @@ export default function HomePage() {
           {/* Logo only */}
           <div className="relative mb-8">
             <a 
-              href="https://apps.apple.com/search?term=LibertyGuard" 
+              href="https://apps.apple.com/us/app/libertyguard/id6753902370?platform=iphone" 
               target="_blank" 
               rel="noopener noreferrer"
               className="cursor-pointer hover:opacity-80 transition-opacity"
@@ -85,7 +85,7 @@ export default function HomePage() {
 
               <div className="space-y-4">
                 <a 
-                  href="https://apps.apple.com/search?term=LibertyGuard" 
+                  href="https://apps.apple.com/us/app/libertyguard/id6753902370?platform=iphone" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="inline-block bg-climate-black text-climate-cream px-8 md:px-12 py-3 md:py-4 rounded-full text-lg md:text-xl font-bold hover:bg-gray-900 transition-colors mb-4"
@@ -102,7 +102,7 @@ export default function HomePage() {
             <div className="flex justify-center">
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 md:gap-3 w-full max-w-5xl">
                 <a 
-                  href="https://apps.apple.com/search?term=LibertyGuard" 
+                  href="https://apps.apple.com/us/app/libertyguard/id6753902370?platform=iphone" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-center hover:opacity-90 transition-opacity cursor-pointer"
@@ -116,7 +116,7 @@ export default function HomePage() {
                 </a>
 
                 <a 
-                  href="https://apps.apple.com/search?term=LibertyGuard" 
+                  href="https://apps.apple.com/us/app/libertyguard/id6753902370?platform=iphone" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-center hover:opacity-90 transition-opacity cursor-pointer"
@@ -130,7 +130,7 @@ export default function HomePage() {
                 </a>
 
                 <a 
-                  href="https://apps.apple.com/search?term=LibertyGuard" 
+                  href="https://apps.apple.com/us/app/libertyguard/id6753902370?platform=iphone" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-center hover:opacity-90 transition-opacity cursor-pointer"
@@ -144,7 +144,7 @@ export default function HomePage() {
                 </a>
 
                 <a 
-                  href="https://apps.apple.com/search?term=LibertyGuard" 
+                  href="https://apps.apple.com/us/app/libertyguard/id6753902370?platform=iphone" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-center hover:opacity-90 transition-opacity cursor-pointer"
