@@ -313,6 +313,7 @@ export default function HomePage() {
               <Link href="/privacy" className="text-climate-red hover:text-climate-cream transition-colors">Privacy Policy</Link>
               <Link href="/terms" className="text-climate-red hover:text-climate-cream transition-colors">Terms of Service</Link>
               <Link href="/protest-safety" className="text-climate-red hover:text-climate-cream transition-colors">Protest Safety Guide</Link>
+              <Link href="/know-your-rights" className="text-climate-red hover:text-climate-cream transition-colors">Know Your Rights</Link>
             </div>
             <p className="text-climate-cream text-sm">
               Support: <a href="mailto:support@libertyguard.app" className="text-climate-red hover:underline font-bold">support@libertyguard.app</a>

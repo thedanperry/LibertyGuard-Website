@@ -15,6 +15,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
+      url: 'https://libertyguard.app/know-your-rights',
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    {
       url: 'https://libertyguard.app/privacy',
       lastModified: new Date(),
       changeFrequency: 'yearly',
