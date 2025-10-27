@@ -101,41 +101,61 @@ export default function HomePage() {
 
             <div className="flex justify-center">
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 md:gap-3 w-full max-w-5xl">
-                <div className="text-center">
+                <a 
+                  href="https://apps.apple.com/search?term=LibertyGuard" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-center hover:opacity-90 transition-opacity cursor-pointer"
+                >
                   <img
                     src="/screenshots/LibertyGuard_Screenshot1.png"
                     alt="LibertyGuard Democracy Health Dashboard with threat monitoring"
                     className="w-full h-auto rounded-xl shadow-2xl transition-transform duration-200 md:hover:scale-105"
                   />
                   <p className="text-climate-cream text-sm mt-3 font-bold">Democracy Dashboard</p>
-                </div>
+                </a>
 
-                <div className="text-center">
+                <a 
+                  href="https://apps.apple.com/search?term=LibertyGuard" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-center hover:opacity-90 transition-opacity cursor-pointer"
+                >
                   <img
                     src="/screenshots/LibertyGuard_Screenshot2.png"
                     alt="Real-time threat alerts and authoritarian activity monitoring"
                     className="w-full h-auto rounded-xl shadow-2xl transition-transform duration-200 md:hover:scale-105"
                   />
                   <p className="text-climate-cream text-sm mt-3 font-bold">Threat Alerts</p>
-                </div>
+                </a>
 
-                <div className="text-center">
+                <a 
+                  href="https://apps.apple.com/search?term=LibertyGuard" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-center hover:opacity-90 transition-opacity cursor-pointer"
+                >
                   <img
                     src="/screenshots/LibertyGuard_Screenshot3.png"
                     alt="Protest events and community organizing"
                     className="w-full h-auto rounded-xl shadow-2xl transition-transform duration-200 md:hover:scale-105"
                   />
                   <p className="text-climate-cream text-sm mt-3 font-bold">Threat Tracker</p>
-                </div>
+                </a>
 
-                <div className="text-center">
+                <a 
+                  href="https://apps.apple.com/search?term=LibertyGuard" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-center hover:opacity-90 transition-opacity cursor-pointer"
+                >
                   <img
                     src="/screenshots/LibertyGuard_Screenshot4.png"
                     alt="Resistance survival guides and protest protocols"
                     className="w-full h-auto rounded-xl shadow-2xl transition-transform duration-200 md:hover:scale-105"
                   />
                   <p className="text-climate-cream text-sm mt-3 font-bold">Events & Organizing</p>
-                </div>
+                </a>
               </div>
             </div>
           </div>
