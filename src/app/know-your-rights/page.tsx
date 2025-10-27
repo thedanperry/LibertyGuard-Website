@@ -212,8 +212,8 @@ export default function KnowYourRightsPage() {
             </p>
           </section>
 
-          <section className="p-8 rounded-lg bg-climate-red bg-opacity-10">
-            <h2 className="text-2xl font-bold text-climate-cream mb-4">Download LibertyGuard for Complete Rights Protection</h2>
+          <section className="p-8 rounded-lg border-2 border-climate-red">
+            <h2 className="text-2xl font-bold text-climate-red mb-4">Download LibertyGuard for Complete Rights Protection</h2>
             <p className="text-lg leading-relaxed mb-6">
               The LibertyGuard app provides real-time legal protection and emergency protocols:
             </p>
@@ -230,7 +230,7 @@ export default function KnowYourRightsPage() {
                 href="https://apps.apple.com/search?term=LibertyGuard" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="inline-block bg-climate-cream text-climate-black px-8 py-4 rounded-full text-xl font-bold hover:bg-gray-200 transition-colors mb-4"
+                className="inline-block bg-climate-red text-climate-cream px-8 py-4 rounded-full text-xl font-bold hover:bg-red-700 transition-colors mb-4"
               >
                 DOWNLOAD LIBERTYGUARD FREE (7-Day Trial)
               </a>
@@ -243,14 +243,10 @@ export default function KnowYourRightsPage() {
           <div className="mt-12 space-y-4">
             <div className="bg-climate-red bg-opacity-10 p-6 rounded-lg mb-8">
               <h3 className="text-xl font-bold text-climate-cream mb-4">Related Guides</h3>
-              <ul className="space-y-3">
-                <li>
-                  <Link href="/protest-safety" className="text-climate-cream hover:text-climate-red transition-colors underline">
-                    → Protest Safety Guide: Complete Survival Protocol
-                  </Link>
-                  <p className="text-climate-cream text-sm opacity-75 ml-4">Learn what to bring, emergency protocols, and how to stay safe during protests</p>
-                </li>
-              </ul>
+              <Link href="/protest-safety" className="text-climate-cream hover:text-climate-red transition-colors underline block mb-2">
+                → Protest Safety Guide: Complete Survival Protocol
+              </Link>
+              <p className="text-climate-cream text-sm ml-4 mb-4">Learn what to bring, emergency protocols, and how to stay safe during protests</p>
             </div>
             <div className="text-center space-y-4 mt-12">
               <Link href="/protest-safety" className="bg-climate-red text-climate-cream px-8 py-3 rounded-full text-lg font-bold hover:bg-red-700 transition-colors block">
