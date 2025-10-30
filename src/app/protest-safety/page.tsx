@@ -167,12 +167,12 @@ export default function ProtestSafetyPage() {
             </ul>
           </section>
 
-          <section className="p-8 rounded-lg bg-climate-cream">
-            <h2 className="text-2xl font-bold text-climate-black mb-4">Download LibertyGuard for Complete Protection</h2>
-            <p className="text-lg leading-relaxed mb-6 text-climate-black">
+          <section className="p-8 rounded-lg bg-climate-red">
+            <h2 className="text-2xl font-bold text-climate-cream mb-4">Download LibertyGuard for Complete Protection</h2>
+            <p className="text-lg leading-relaxed mb-6 text-climate-cream">
               The LibertyGuard app provides real-time protection during protests and civil unrest:
             </p>
-            <ul className="list-disc list-inside space-y-2 ml-4 mb-6 text-climate-black">
+            <ul className="list-disc list-inside space-y-2 ml-4 mb-6 text-climate-cream">
               <li><strong>Emergency Beacon:</strong> One-tap alert sends location to emergency contacts instantly</li>
               <li><strong>Legal Rights Guide:</strong> Know your constitutional rights at all times</li>
               <li><strong>Documentation Tools:</strong> Capture incidents with timestamp and location</li>
@@ -186,11 +186,11 @@ export default function ProtestSafetyPage() {
                 href="https://apps.apple.com/us/app/libertyguard/id6753902370?platform=iphone" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="inline-block bg-climate-black text-climate-cream px-8 py-4 rounded-full text-xl font-bold hover:bg-opacity-90 transition-colors mb-4"
+                className="inline-block bg-climate-cream text-climate-black px-8 py-4 rounded-full text-xl font-bold hover:bg-opacity-90 transition-colors mb-4"
               >
                 DOWNLOAD LIBERTYGUARD FREE (7-Day Trial)
               </a>
-              <p className="text-climate-black text-sm">
+              <p className="text-climate-cream text-sm">
                 Free version available • Pro: $4.99/month or $39.99/year
               </p>
             </div>
