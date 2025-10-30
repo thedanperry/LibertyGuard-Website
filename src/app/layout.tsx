@@ -32,9 +32,9 @@ export const metadata: Metadata = {
     description: "Defend democracy, protect rights. Real-time threat monitoring, protest coordination, and resistance guides.",
   },
   icons: {
-    icon: '/libertyguard-logo.png',
-    shortcut: '/libertyguard-logo.png',
-    apple: '/libertyguard-logo.png',
+    icon: '/libertyguard-icon-new.png',
+    shortcut: '/libertyguard-icon-new.png',
+    apple: '/libertyguard-icon-new.png',
   },
   alternates: {
     canonical: "https://libertyguard.app",
