@@ -83,7 +83,7 @@ export default function HomePage() {
                 <li>Legal protection - Know your rights, document incidents, stay safe</li>
               </ul>
 
-              <div className="space-y-4">
+              <div className="space-y-4 text-center">
                 <a 
                   href="https://apps.apple.com/us/app/libertyguard/id6753902370?platform=iphone" 
                   target="_blank" 
@@ -92,9 +92,9 @@ export default function HomePage() {
                 >
                   DOWNLOAD FOR iOS
                 </a>
-                <div className="text-climate-cream text-sm space-y-1 ml-4 md:ml-6">
-                  <p>• Free version available</p>
-                  <p>• Pro: $4.99/month or $39.99/year</p>
+                <div className="text-climate-cream text-sm space-y-1">
+                  <p className="whitespace-nowrap">• Free version available</p>
+                  <p className="whitespace-nowrap">• Pro: $4.99/month or $39.99/year</p>
                 </div>
               </div>
             </div>

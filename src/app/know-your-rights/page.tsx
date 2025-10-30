@@ -20,9 +20,9 @@ export default function KnowYourRightsPage() {
           <p className="text-climate-cream text-lg opacity-75">Complete 2025 legal guide for activists, protesters, and defenders of democracy</p>
         </div>
 
-        <div className="p-6 rounded-lg mb-8 bg-climate-cream">
-          <p className="text-climate-black text-lg font-bold mb-2">Critical: These are your legal rights</p>
-          <p className="text-climate-black">
+        <div className="p-6 rounded-lg mb-8 bg-climate-red">
+          <p className="text-climate-cream text-lg font-bold mb-2">Critical: These are your legal rights</p>
+          <p className="text-climate-cream">
             The Constitution protects your right to protest, but those protections only work if you know them, assert them, and document violations. This guide covers everything you need to know to protect yourself legally.
           </p>
         </div>
@@ -241,14 +241,14 @@ export default function KnowYourRightsPage() {
           </section>
 
           <div className="mt-12 space-y-4">
-            <div className="p-6 rounded-lg mb-8 bg-climate-cream">
-              <h3 className="text-xl font-bold text-climate-black mb-4">Related Guides</h3>
+            <div className="p-6 rounded-lg mb-8 bg-climate-red">
+              <h3 className="text-xl font-bold text-climate-cream mb-4">Related Guides</h3>
               <div className="space-y-3">
                 <div>
-                  <Link href="/protest-safety" className="text-climate-red hover:text-climate-black transition-colors underline font-semibold">
+                  <Link href="/protest-safety" className="text-climate-cream hover:text-climate-black transition-colors underline font-semibold">
                     Protest Safety Guide: Complete Survival Protocol
                   </Link>
-                  <p className="text-climate-black text-sm mt-1">Learn what to bring, emergency protocols, and how to stay safe during protests</p>
+                  <p className="text-climate-cream text-sm mt-1">Learn what to bring, emergency protocols, and how to stay safe during protests</p>
                 </div>
               </div>
             </div>

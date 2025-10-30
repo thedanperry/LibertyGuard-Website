@@ -20,9 +20,9 @@ export default function ProtestSafetyPage() {
           <p className="text-climate-cream text-lg opacity-75">Complete 2025 guide to protest safety, legal rights, and emergency protocols</p>
         </div>
 
-        <div className="p-6 rounded-lg mb-8 bg-climate-cream">
-          <p className="text-climate-black text-lg font-bold mb-2"><strong className="text-climate-black">Critical:</strong> Read this before your next protest</p>
-          <p className="text-climate-black">
+        <div className="p-6 rounded-lg mb-8 bg-climate-red">
+          <p className="text-climate-cream text-lg font-bold mb-2"><strong className="text-climate-cream">Critical:</strong> Read this before your next protest</p>
+          <p className="text-climate-cream">
             People get arrested. People get injured. People face serious legal consequences. This guide gives you the knowledge to protect yourself when things go wrong. <strong className="text-climate-cream">No theory. Just practical, actionable information.</strong>
           </p>
         </div>
@@ -144,9 +144,9 @@ export default function ProtestSafetyPage() {
               <li><strong>Property damage:</strong> Photos of damaged property or belongings</li>
               <li><strong>Video evidence:</strong> Record police encounters (legal in public spaces in most states)</li>
             </ul>
-            <div className="p-6 rounded-lg mb-4 bg-climate-cream">
-              <p className="text-climate-black text-lg leading-relaxed">
-                <strong className="text-climate-red">Legal Note:</strong> You have the right to record police activity in public spaces in most jurisdictions. However, laws vary by state. Check local laws before recording. If you're arrested, your phone may be confiscated, so cloud backup is essential.
+            <div className="p-6 rounded-lg mb-4 bg-climate-red">
+              <p className="text-climate-cream text-lg leading-relaxed">
+                <strong className="text-climate-cream">Legal Note:</strong> You have the right to record police activity in public spaces in most jurisdictions. However, laws vary by state. Check local laws before recording. If you're arrested, your phone may be confiscated, so cloud backup is essential.
               </p>
             </div>
           </section>
@@ -210,14 +210,14 @@ export default function ProtestSafetyPage() {
           </section>
 
           <div className="mt-12 space-y-4">
-            <div className="p-6 rounded-lg mb-8 bg-climate-cream">
-              <h3 className="text-xl font-bold text-climate-black mb-4">Related Guides</h3>
+            <div className="p-6 rounded-lg mb-8 bg-climate-red">
+              <h3 className="text-xl font-bold text-climate-cream mb-4">Related Guides</h3>
               <div className="space-y-3">
                 <div>
-                  <Link href="/know-your-rights" className="text-climate-red hover:text-climate-black transition-colors underline font-semibold">
+                  <Link href="/know-your-rights" className="text-climate-cream hover:text-climate-black transition-colors underline font-semibold">
                     Know Your Rights: Complete Legal Guide for Activists
                   </Link>
-                  <p className="text-climate-black text-sm mt-1">Learn your constitutional rights, what to say to police, and how to protect yourself legally</p>
+                  <p className="text-climate-cream text-sm mt-1">Learn your constitutional rights, what to say to police, and how to protect yourself legally</p>
                 </div>
               </div>
             </div>
