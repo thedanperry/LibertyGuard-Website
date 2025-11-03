@@ -16,20 +16,30 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "LibertyGuard - Democracy Protection & Resistance App",
-  description: "Your comprehensive democracy protection and resistance companion. Real-time threat monitoring, protest coordination, encrypted documentation, and resistance guides. Defend democracy, protect rights. Free 7-day trial available.",
-  keywords: "protest app, resistance app, democracy protection, civil rights app, activist tools, protest organizer, police accountability, emergency scanner, resistance guides, legal rights app, protest safety, police encounters app, democracy tracker, civil unrest app",
+  title: "LibertyGuard – Activism Alerts, Secure Communication & Democracy Protection App",
+  description: "Real-time threat alerts, secure encrypted chat, and civil rights resources for activists and citizens. Get democracy health monitoring, protest coordination tools, legal rights guides, and emergency protocols. Download free 7-day trial.",
+  keywords: "activism app, protest app, civil rights app, democracy alerts, threat intelligence, secure messaging, encrypted chat, protest organizer, activism toolkit, democracy protection, legal rights app, protest safety, police accountability, emergency scanner, resistance app, democracy tracker, civil unrest app, mutual aid app, organizer tools, secure communication",
   authors: [{ name: "LibertyGuard" }],
   openGraph: {
-    title: "LibertyGuard - Democracy Protection & Resistance App",
-    description: "Defend democracy, protect rights. Real-time threat monitoring, protest coordination, and resistance guides. Free 7-day trial.",
+    title: "LibertyGuard – Real-Time Threat Alerts & Activism Toolkit",
+    description: "Defend democracy with real-time threat alerts, secure encrypted messaging, protest coordination, and legal rights protection. Download LibertyGuard – free 7-day trial.",
     type: "website",
     url: "https://libertyguard.app",
+    siteName: "LibertyGuard",
+    images: [
+      {
+        url: "https://libertyguard.app/images/libertyguard-logo.png",
+        width: 1200,
+        height: 630,
+        alt: "LibertyGuard - Democracy Protection & Resistance App",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "LibertyGuard - Democracy Protection & Resistance App",
-    description: "Defend democracy, protect rights. Real-time threat monitoring, protest coordination, and resistance guides.",
+    title: "LibertyGuard – Activism Alerts & Secure Organizing Tools",
+    description: "Real-time threat alerts, secure messaging, and civil rights resources for activists. Defend democracy – download free.",
+    images: ["https://libertyguard.app/images/libertyguard-logo.png"],
   },
   icons: {
     icon: '/libertyguard-logo.png',

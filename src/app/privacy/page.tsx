@@ -1,4 +1,11 @@
+import type { Metadata } from "next";
 import Link from 'next/link';
+
+export const metadata: Metadata = {
+  title: "Privacy Policy – LibertyGuard: Zero Data Selling, AES-256 Encryption",
+  description: "LibertyGuard privacy policy: AES-256 encryption, local-first storage, zero data selling. Built for activists facing surveillance. Your data stays on your device. Read our complete privacy commitment.",
+  keywords: "LibertyGuard privacy policy, activist app privacy, encrypted messaging privacy, zero data selling, AES-256 encryption, surveillance protection, privacy-first app",
+};
 
 export default function PrivacyPage() {
   return (

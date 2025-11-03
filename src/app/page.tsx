@@ -18,9 +18,9 @@ export default function HomePage() {
               rel="noopener noreferrer"
               className="cursor-pointer hover:opacity-80 transition-opacity"
             >
-              <p className="font-climate-bold text-5xl md:text-8xl text-climate-cream tracking-wide leading-tight whitespace-pre-line">
+              <h1 className="font-climate-bold text-5xl md:text-8xl text-climate-cream tracking-wide leading-tight whitespace-pre-line">
                 {`JOIN THE\nRESISTANCE`}
-              </p>
+              </h1>
             </a>
           </div>
 
@@ -52,7 +52,7 @@ export default function HomePage() {
             </p>
 
             <p className="text-climate-cream text-xl md:text-2xl leading-relaxed mb-4">
-              <span className="text-climate-red font-bold">LibertyGuard</span> is the resistance app they don't want you to have. Real-time threat monitoring, protest coordination, legal rights protection, and emergency protocols—all in your pocket, working offline when they shut down the networks.
+              <span className="text-climate-red font-bold">LibertyGuard</span> is the comprehensive activism app they don't want you to have. Real-time threat alerts and democracy health monitoring, secure encrypted messaging for organizers, protest coordination tools, legal rights protection, and emergency protocols—all in your pocket, working offline when they shut down the networks.
             </p>
             
             <p className="text-climate-cream text-xl md:text-2xl leading-relaxed">
@@ -66,7 +66,7 @@ export default function HomePage() {
       <div className="bg-climate-red relative overflow-hidden py-16 md:py-24">
         <div className="relative z-10 max-w-8xl mx-auto px-6">
           <h2 className="font-climate-bold text-4xl md:text-8xl text-climate-cream text-center mb-8 md:mb-12">
-            GET LIBERTY GUARD
+            GET LIBERTY GUARD – ACTIVISM ALERTS & SECURE ORGANIZING
           </h2>
 
           <div className="flex flex-col md:flex-row items-center justify-center gap-2 md:gap-4 px-8 md:px-16 lg:px-24">
@@ -249,6 +249,18 @@ export default function HomePage() {
               className="bg-climate-black text-climate-cream px-6 py-3 rounded-full text-lg font-bold hover:bg-gray-900 transition-colors inline-block"
             >
               Know Your Rights
+            </a>
+            <a 
+              href="/features"
+              className="bg-climate-black text-climate-cream px-6 py-3 rounded-full text-lg font-bold hover:bg-gray-900 transition-colors inline-block"
+            >
+              App Features
+            </a>
+            <a 
+              href="/blog"
+              className="bg-climate-black text-climate-cream px-6 py-3 rounded-full text-lg font-bold hover:bg-gray-900 transition-colors inline-block"
+            >
+              Resources & Guides
             </a>
           </div>
         </div>

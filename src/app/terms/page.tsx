@@ -1,4 +1,11 @@
+import type { Metadata } from "next";
 import Link from 'next/link';
+
+export const metadata: Metadata = {
+  title: "Terms of Service – LibertyGuard Activism App",
+  description: "LibertyGuard terms of service: usage terms, subscription terms, and user agreement for the democracy protection and activism app. Read our complete terms.",
+  keywords: "LibertyGuard terms of service, app terms, subscription terms, activism app agreement, user terms",
+};
 
 export default function TermsPage() {
   return (
