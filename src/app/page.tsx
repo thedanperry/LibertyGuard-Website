@@ -66,7 +66,7 @@ export default function HomePage() {
       <div className="bg-climate-red relative overflow-hidden py-16 md:py-24">
         <div className="relative z-10 max-w-8xl mx-auto px-6">
           <h2 className="font-climate-bold text-4xl md:text-8xl text-climate-cream text-center mb-8 md:mb-12">
-            GET LIBERTY GUARD – ACTIVISM ALERTS & SECURE ORGANIZING
+            GET LIBERTY GUARD
           </h2>
 
           <div className="flex flex-col md:flex-row items-center justify-center gap-2 md:gap-4 px-8 md:px-16 lg:px-24">
