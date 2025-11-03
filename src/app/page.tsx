@@ -72,18 +72,18 @@ export default function HomePage() {
           <div className="flex flex-col md:flex-row items-center justify-center gap-2 md:gap-4 px-8 md:px-16 lg:px-24">
             <div className="text-center md:text-left md:max-w-md lg:max-w-lg">
               {/* Bullet points on separate lines with left margin */}
-              <div className="text-climate-cream text-lg md:text-xl mb-8 space-y-2 ml-4 md:ml-6">
-                <p>• Real-time threat intelligence - See what's happening before it hits the news</p>
-                <p>• One-tap emergency beacon - Alert trusted contacts with your exact location instantly</p>
-                <p>• 35+ resistance guides - Protest protocols, legal rights, medical care, all offline</p>
-                <p>• Protest coordination - Find local events, organize actions, stay connected</p>
-                <p>• Message generator - 100+ powerful protest signs and chants</p>
-                <p>• Encrypted community messaging - Secure communication when it matters most</p>
-                <p>• Democracy health dashboard - Track threats to free speech and rights</p>
-                <p>• Legal protection - Know your rights, document incidents, stay safe</p>
-              </div>
+              <ul className="text-climate-cream text-lg md:text-xl mb-8 space-y-2 list-disc list-outside ml-6 md:ml-8 pl-2">
+                <li>Real-time threat intelligence - See what's happening before it hits the news</li>
+                <li>One-tap emergency beacon - Alert trusted contacts with your exact location instantly</li>
+                <li>35+ resistance guides - Protest protocols, legal rights, medical care, all offline</li>
+                <li>Protest coordination - Find local events, organize actions, stay connected</li>
+                <li>Message generator - 100+ powerful protest signs and chants</li>
+                <li>Encrypted community messaging - Secure communication when it matters most</li>
+                <li>Democracy health dashboard - Track threats to free speech and rights</li>
+                <li>Legal protection - Know your rights, document incidents, stay safe</li>
+              </ul>
 
-              <div className="space-y-4">
+              <div className="space-y-4 text-center">
                 <a 
                   href="https://apps.apple.com/us/app/libertyguard/id6753902370?platform=iphone" 
                   target="_blank" 
@@ -92,9 +92,9 @@ export default function HomePage() {
                 >
                   DOWNLOAD FOR iOS
                 </a>
-                <div className="text-climate-cream text-sm space-y-1 ml-4 md:ml-6">
-                  <p>• Free version available</p>
-                  <p>• Pro: $4.99/month or $39.99/year</p>
+                <div className="text-climate-cream text-sm space-y-1">
+                  <p className="whitespace-nowrap">• Free version available</p>
+                  <p className="whitespace-nowrap">• Pro: $4.99/month or $39.99/year</p>
                 </div>
               </div>
             </div>
