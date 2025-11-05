@@ -92,6 +92,14 @@ export default function HomePage() {
                 >
                   DOWNLOAD FOR iOS
                 </a>
+                <a 
+                  href="https://play.google.com/store/apps/details?id=com.libertyguard.app" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="inline-block bg-climate-black text-climate-cream px-8 md:px-12 py-3 md:py-4 rounded-full text-lg md:text-xl font-bold hover:bg-gray-900 transition-colors mb-4"
+                >
+                  DOWNLOAD FOR ANDROID
+                </a>
                 <div className="text-climate-cream text-sm space-y-1">
                   <p className="whitespace-nowrap">• Free version available</p>
                   <p className="whitespace-nowrap">• Pro: $4.99/month or $39.99/year</p>
