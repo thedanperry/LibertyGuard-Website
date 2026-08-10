@@ -12,6 +12,11 @@ export default {
       colors: {
         background: 'hsl(var(--background))',
         foreground: 'hsl(var(--foreground))',
+        climate: {
+          black: '#000000',
+          cream: '#ebe3db',
+          red: '#f54335',
+        },
         card: {
           DEFAULT: 'hsl(var(--card))',
           foreground: 'hsl(var(--card-foreground))'

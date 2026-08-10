@@ -10,19 +10,20 @@
     --card-foreground: 235 227 219;
     --popover: 0 0 0;
     --popover-foreground: 235 227 219;
-    --primary: 245 67 53; /* #f54335 red */
-    --primary-foreground: 235 227 219;
-    --secondary: 235 227 219;
-    --secondary-foreground: 0 0 0;
-    --muted: 95 76 71;
-    --muted-foreground: 123 133 122;
-    --accent: 245 67 53;
-    --accent-foreground: 235 227 219;
-    --destructive: 245 67 53;
-    --destructive-foreground: 235 227 219;
-    --border: 95 76 71;
-    --input: 95 76 71;
-    --ring: 245 67 53;
+    --primary: 4 90% 58%; /* #f54335 red as HSL */
+    --primary-foreground: 30 20% 90%;
+    --secondary: 30 20% 90%;
+    --secondary-foreground: 0 0% 0%;
+    /* HSL components for shadcn tokens (not RGB — RGB values were rendering as lime green borders) */
+    --muted: 15 12% 33%;
+    --muted-foreground: 30 8% 55%;
+    --accent: 4 90% 58%;
+    --accent-foreground: 30 20% 90%;
+    --destructive: 4 90% 58%;
+    --destructive-foreground: 30 20% 90%;
+    --border: 4 40% 22%;
+    --input: 4 40% 22%;
+    --ring: 4 90% 58%;
     --radius: 0.5rem;
   }
 }

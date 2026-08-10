@@ -1,39 +1,38 @@
 import { APP_STORE_URL, PLAY_STORE_URL } from '@/lib/constants'
 
 type AppStoreCtaProps = {
-  label?: string
   note?: string
+  iosLabel?: string
+  androidLabel?: string
 }
 
 export function AppStoreCta({
-  label = 'DOWNLOAD LIBERTYGUARD',
   note = 'Open Democracy Health, threat alerts, Protest Map, Emergency Beacon, offline rights guides, and Protection checklists in one app.',
+  iosLabel = 'DOWNLOAD FOR iOS',
+  androidLabel = 'DOWNLOAD FOR ANDROID',
 }: AppStoreCtaProps) {
   return (
-    <div
-      className="mt-14 rounded-xl border border-climate-red/40 p-6 md:p-8 text-center"
-      style={{ backgroundColor: 'rgba(245, 67, 53, 0.12)' }}
-    >
-      <p className="text-climate-cream text-lg leading-relaxed mb-6">{note}</p>
-      <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
+    <div className="mt-14 rounded-xl border-2 border-[#ebe3db] bg-climate-red px-6 py-8 text-center">
+      <p className="mb-6 text-lg leading-relaxed text-climate-cream">{note}</p>
+      <div className="flex flex-col items-center justify-center gap-3 sm:flex-row">
         <a
           href={APP_STORE_URL}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-block bg-climate-cream text-climate-black px-8 py-4 rounded-full text-lg font-bold hover:bg-opacity-90 transition-colors"
+          className="store-cta-btn inline-block whitespace-nowrap rounded-full bg-climate-black px-8 py-3 text-lg font-bold text-climate-cream no-underline transition-colors hover:bg-gray-900 hover:!text-climate-cream"
         >
-          {label} — iOS
+          {iosLabel}
         </a>
         <a
           href={PLAY_STORE_URL}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-block bg-climate-cream text-climate-black px-8 py-4 rounded-full text-lg font-bold hover:bg-opacity-90 transition-colors"
+          className="store-cta-btn inline-block whitespace-nowrap rounded-full bg-climate-cream px-8 py-3 text-lg font-bold text-climate-red no-underline transition-colors hover:bg-opacity-90 hover:!text-climate-red"
         >
-          {label} — Android
+          {androidLabel}
         </a>
       </div>
-      <p className="text-climate-cream text-sm mt-4 opacity-80">
+      <p className="mt-4 text-sm text-climate-cream opacity-80">
         Free version available · Pro: $4.99/month or $39.99/year · Free 7-day trial
       </p>
     </div>
