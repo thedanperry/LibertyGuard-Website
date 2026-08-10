@@ -1,17 +1,30 @@
 import type { Metadata } from "next";
 import Link from 'next/link';
+import { SiteFooter } from '@/components/SiteFooter';
+import { AppStoreCta } from '@/components/AppStoreCta';
 
 export const metadata: Metadata = {
-  title: "Know Your Rights: Complete Legal Guide for Activists and Protesters 2025",
-  description: "Comprehensive guide to your constitutional rights during protests, police encounters, and arrests. Learn your First Amendment rights, what to say, what not to say, and how to document everything. Legal aid resources included.",
+  title: "Know Your Rights: Complete Legal Guide for Activists and Protesters",
+  description: "Comprehensive guide to your constitutional rights during protests, police encounters, and arrests. Learn your First Amendment rights, what to say, what not to say, and how to document everything. Not legal advice.",
   keywords: "know your rights, first amendment rights, civil rights, police encounters, arrest rights, constitutional rights, legal aid, protest rights, fourth amendment, fifth amendment, right to remain silent, legal representation",
+  alternates: {
+    canonical: 'https://libertyguard.app/know-your-rights',
+  },
+  openGraph: {
+    title: "Know Your Rights | LibertyGuard",
+    description: "Constitutional rights during protests and police encounters—speech, silence, counsel, recording. Educational only; not legal advice.",
+    url: 'https://libertyguard.app/know-your-rights',
+  },
 };
 
 export default function KnowYourRightsPage() {
   return (
-    <div className="min-h-screen bg-climate-black text-climate-cream">
-      <div className="max-w-4xl mx-auto px-6 py-16">
-        <h1 className="font-climate-bold text-4xl md:text-6xl text-climate-red text-center mb-8">
+    <div className="min-h-screen bg-climate-black text-climate-cream flex flex-col">
+      <div className="max-w-4xl mx-auto px-6 py-16 flex-1">
+        <Link href="/" className="inline-block text-climate-red hover:text-climate-cream transition-colors mb-8 font-bold">
+          ← Back to Home
+        </Link>
+<h1 className="font-climate-bold text-4xl md:text-6xl text-climate-red text-center mb-8">
           KNOW YOUR RIGHTS
         </h1>
         
@@ -212,58 +225,48 @@ export default function KnowYourRightsPage() {
             </p>
           </section>
 
-          <section className="p-8 rounded-lg bg-climate-red">
-            <h2 className="text-2xl font-bold text-climate-cream mb-4">Download LibertyGuard for Complete Rights Protection</h2>
-            <p className="text-lg leading-relaxed mb-6 text-climate-cream">
-              The LibertyGuard app provides real-time legal protection and emergency protocols:
-            </p>
-            <ul className="list-disc list-inside space-y-2 ml-4 mb-6 text-climate-cream">
-              <li><strong>Emergency Beacon:</strong> One-tap alert sends your location to emergency contacts instantly</li>
-              <li><strong>Legal Rights Guide:</strong> Complete offline guide to your constitutional rights</li>
-              <li><strong>Documentation Tools:</strong> Capture incidents with timestamp and GPS coordinates</li>
-              <li><strong>Arrest Protocols:</strong> Step-by-step guide for what to do if arrested</li>
-              <li><strong>Legal Aid Hotlines:</strong> Emergency contacts pre-programmed</li>
-              <li><strong>35+ Resistance Guides:</strong> Complete offline library of survival and legal protocols</li>
-            </ul>
-            <div className="text-center">
-              <a 
-                href="https://apps.apple.com/us/app/libertyguard/id6753902370?platform=iphone" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="inline-block bg-climate-cream text-climate-black px-8 py-4 rounded-full text-xl font-bold hover:bg-opacity-90 transition-colors mb-4"
-              >
-                DOWNLOAD LIBERTYGUARD FREE (7-Day Trial)
-              </a>
-              <p className="text-climate-cream text-sm">
-                Free version available • Pro: $4.99/month or $39.99/year
-              </p>
-            </div>
-          </section>
+
+          <AppStoreCta note="Keep rights scripts, Emergency Beacon contacts, arrest protocols, and 35+ offline Education guides in LibertyGuard—local-first when networks fail." />
+
+          <p className="text-sm opacity-60 pt-4 border-t border-white/10 mt-8">
+            Educational overview only — not legal advice. Laws vary by jurisdiction. Consult a qualified attorney for your situation. See our{' '}
+            <Link href="/legal-disclaimer" className="text-climate-red underline">legal disclaimer</Link>.
+          </p>
 
           <div className="mt-12 space-y-4">
-            <div className="p-6 rounded-lg mb-8 bg-climate-red">
+            <div className="p-6 rounded-lg mb-8" style={{backgroundColor: 'rgba(220, 53, 69, 0.15)'}}>
               <h3 className="text-xl font-bold text-climate-cream mb-4">Related Guides</h3>
-              <div className="space-y-3">
-                <div>
-                  <Link href="/protest-safety" className="text-climate-cream hover:text-climate-black transition-colors underline font-semibold">
+              <ul className="space-y-3">
+                <li>
+                  <Link href="/protest-safety" className="text-climate-cream hover:text-climate-red transition-colors underline">
                     Protest Safety Guide: Complete Survival Protocol
                   </Link>
-                  <p className="text-climate-cream text-sm mt-1">Learn what to bring, emergency protocols, and how to stay safe during protests</p>
-                </div>
-              </div>
-            </div>
-            <div className="text-center space-y-4 mt-12">
-              <Link href="/protest-safety" className="bg-climate-cream text-climate-red px-8 py-3 rounded-full text-lg font-bold hover:bg-opacity-90 transition-colors inline-block">
-                BACK TO PROTEST SAFETY GUIDE
-              </Link>
-              <br />
-              <Link href="/" className="bg-climate-cream text-climate-red px-8 py-3 rounded-full text-lg font-bold hover:bg-opacity-90 transition-colors inline-block">
-                BACK TO HOME
-              </Link>
+                  <p className="text-climate-cream text-sm ml-4">Learn what to bring, emergency protocols, and how to stay safe during protests</p>
+                </li>
+                <li>
+                  <Link href="/civil-liberties" className="text-climate-cream hover:text-climate-red transition-colors underline">
+                    Civil Liberties Hub
+                  </Link>
+                  <p className="text-climate-cream text-sm ml-4">Speech, privacy, due process—and how LibertyGuard tracks rights pressure</p>
+                </li>
+                <li>
+                  <Link href="/digital-privacy" className="text-climate-cream hover:text-climate-red transition-colors underline">
+                    Digital Privacy Guide
+                  </Link>
+                  <p className="text-climate-cream text-sm ml-4">Phone hygiene before encounters and protests</p>
+                </li>
+                <li>
+                  <Link href="/dsa" className="text-climate-cream hover:text-climate-red transition-colors underline">
+                    DSA / Democratic Socialists of America
+                  </Link>
+                  <p className="text-climate-cream text-sm ml-4">Organization context for left organizing and civic defense tools</p>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
       </div>
+      <SiteFooter />
     </div>
   );
 }

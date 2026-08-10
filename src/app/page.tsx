@@ -1,7 +1,7 @@
 'use client';
 
 import { WarningIcon } from '@/components/WarningIcon';
-import Link from 'next/link';
+import { SiteFooter } from '@/components/SiteFooter';
 
 export default function HomePage() {
   return (
@@ -378,26 +378,8 @@ export default function HomePage() {
         </div>
       </div>
 
-      {/* Footer with support contact */}
-      <div className="bg-climate-black py-12">
-        <div className="max-w-6xl mx-auto px-6 text-center">
-          <div className="mb-6">
-                <h3 className="text-climate-cream text-2xl font-bold mb-2">LIBERTY GUARD</h3>
-            <p className="text-climate-cream text-sm opacity-60">Defend Democracy. Protect Rights.</p>
-          </div>
-          <div className="space-y-4 text-sm">
-            <div className="flex flex-wrap justify-center gap-4">
-              <Link href="/privacy" className="text-climate-red hover:text-climate-cream transition-colors">Privacy Policy</Link>
-              <Link href="/terms" className="text-climate-red hover:text-climate-cream transition-colors">Terms of Service</Link>
-              <Link href="/protest-safety" className="text-climate-red hover:text-climate-cream transition-colors">Protest Safety Guide</Link>
-              <Link href="/know-your-rights" className="text-climate-red hover:text-climate-cream transition-colors">Know Your Rights</Link>
-            </div>
-            <p className="text-climate-cream text-sm">
-              Support: <a href="mailto:support@libertyguard.app" className="text-climate-red hover:underline font-bold">support@libertyguard.app</a>
-            </p>
-          </div>
-        </div>
-      </div>
+      {/* Explore links buried in footer only — keep hero clean */}
+      <SiteFooter />
     </div>
   );
 }
