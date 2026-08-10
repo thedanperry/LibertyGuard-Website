@@ -33,6 +33,7 @@ export default function Page() {
               <LinkCard href="/surveillance" title="Surveillance" meta="Cameras at the march" />
         <LinkCard href="/digital-privacy" title="Digital Privacy" meta="Phones before you go" />
         <LinkCard href="/dsa" title="DSA" meta="Left organizing context" />
+        <LinkCard href="/media" title="Media Archives" meta="News & podcasts in-app" />
       </LinkGrid>
     </ContentLayout>
   )

@@ -35,6 +35,7 @@ export default function Page() {
               <LinkCard href="/trumpism" title="Trumpism" meta="Movement politics, carefully attributed" />
               <LinkCard href="/nspm-7" title="NSPM-7" meta="National security memo context" />
               <LinkCard href="/dsa" title="DSA" meta="Democratic Socialists of America primer" />
+              <LinkCard href="/media" title="Media" meta="Archives podcasts & channels" />
             </LinkGrid>
             <h2>Action & safety</h2>
             <LinkGrid>

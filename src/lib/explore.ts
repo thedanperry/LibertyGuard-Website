@@ -36,7 +36,8 @@ export const EXPLORE_GROUPS: ExploreGroup[] = [
     links: [
       { href: '/resistance', label: 'Resistance Hub', priority: 0.85 },
       { href: '/protests', label: 'Protests', priority: 0.85 },
-      { href: '/dsa', label: 'DSA', priority: 0.8 },
+      { href: '/dsa', label: 'DSA', priority: 0.85 },
+      { href: '/media', label: 'Media', priority: 0.85 },
       { href: '/foia', label: 'FOIA', priority: 0.7 },
       { href: '/police-militarization', label: 'Police Militarization', priority: 0.7 },
     ],
